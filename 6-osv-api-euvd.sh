@@ -12,7 +12,7 @@
 set -euo pipefail
 
 EUVD_API="https://euvdservices.enisa.europa.eu/api"
-OUTPUT_DIR="."
+OUTPUT_DIR="output"
 TIMESTAMP=$(date +%Y%m%d_%H%M%S)
 PAGE_SIZE=20
 
@@ -308,6 +308,18 @@ PAGE=0
 OUTFILE=""
 BATCH=false
 
+for arg in "$@"; do
+  if [[ "$arg" == "--help" ]]; then
+    usage
+  fi
+done
+
+if [[ $# -eq 0 ]]; then
+  echo "No arguments provided. Use --help (or -h) to see usage."
+  echo ""
+  usage
+fi
+
 while getopts ":i:s:n:P:o:blh" opt; do
   case "$opt" in
     i) LOOKUP_ID="$OPTARG" ;;
@@ -339,9 +351,6 @@ elif [[ -n "$SEARCH" ]]; then
   search_keyword "$SEARCH" "$PAGE" "$PAGE_SIZE" "$OUTFILE"
 
 else
-  echo ""
-  echo "No query specified. Running a demo search: ${safe_name}"
-  echo ""
-  OUTFILE="${OUTFILE:-${OUTPUT_DIR}/euvd-search-${safe_name}-${TIMESTAMP}.json}"
-  search_keyword "$safe_name" 0 10 "$OUTFILE"
+  echo "No valid query specified. Use --help (or -h) to see usage."
+  exit 1
 fi
