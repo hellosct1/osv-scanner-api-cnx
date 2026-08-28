@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # =============================================================================
-# 6-osv-api-euvd.sh — Query the ENISA EUVD API for vulnerability information
+# euvd-api.sh — Query the ENISA EUVD API for vulnerability information
 # API  : https://euvdservices.enisa.europa.eu/api/
 # EUVD : European Vulnerability Database (ENISA)
 #
@@ -12,7 +12,7 @@
 set -euo pipefail
 
 EUVD_API="https://euvdservices.enisa.europa.eu/api"
-OUTPUT_DIR="output"
+OUTPUT_DIR="/var/www/html/osv-scanner/rapport"
 TIMESTAMP=$(date +%Y%m%d_%H%M%S)
 PAGE_SIZE=20
 
@@ -33,7 +33,8 @@ Usage: $0 [OPTIONS]
 Query the ENISA European Vulnerability Database (EUVD) API.
 
 OPTIONS
-  -i <id>          Lookup by EUVD or CVE ID (e.g. EUVD-2024-45012 or CVE-2021-44228)
+  -i <id>          Lookup by EUVD, CVE, or Drupal advisory ID
+                   (e.g. EUVD-2024-45012, CVE-2021-44228, DRUPAL-CORE-2023-002)
   -s <keyword>     Full-text search (product name, keyword, vendor, etc.)
   -n <pageSize>    Number of results for search (default: $PAGE_SIZE, max: 100)
   -P <page>        Page number for search (0-based, default: 0)
@@ -48,6 +49,9 @@ EXAMPLES
 
   # Lookup by EUVD ID
   $0 -i EUVD-2024-45012
+
+  # Lookup a Drupal advisory in EUVD
+  $0 -i DRUPAL-CORE-2023-002
 
   # Search by keyword
   $0 -s log4j
@@ -81,6 +85,7 @@ Example EUVD / CVE IDs and keywords:
     CVE-2023-44487          HTTP/2 Rapid Reset
     EUVD-2024-45012         ENISA EUVD record
     EUVD-2021-34768         Apache Log4j   
+    DRUPAL-CORE-2023-002    Drupal core advisory
 
   Search keywords (-s)
     log4j        log4shell       openssl        heartbleed
@@ -101,12 +106,24 @@ lookup_id() {
   info "Looking up EUVD record → $id"
 
   local response
-  response=$(curl -sSL \
-    --connect-timeout 10 \
-    --max-time 30 \
-    -H "Accept: application/json" \
-    -H "User-Agent: osv-api-euvd/1.0" \
-    "${EUVD_API}/enisaid?id=${id}")
+  if [[ "$id" == DRUPAL-* ]]; then
+    local encoded_id
+    encoded_id=$(printf '%s' "$id" | jq -sRr @uri)
+    response=$(curl -sSL \
+      --connect-timeout 10 \
+      --max-time 30 \
+      -H "Accept: application/json" \
+      -H "User-Agent: osv-api-euvd/1.0" \
+      "${EUVD_API}/search?text=${encoded_id}&page=0&pageSize=${PAGE_SIZE}")
+    response=$(echo "$response" | jq 'if (.items | length) > 0 then .items[0] else {} end')
+  else
+    response=$(curl -sSL \
+      --connect-timeout 10 \
+      --max-time 30 \
+      -H "Accept: application/json" \
+      -H "User-Agent: osv-api-euvd/1.0" \
+      "${EUVD_API}/enisaid?id=${id}")
+  fi
 
   echo "$response" | jq -e . > /dev/null 2>&1 || die "Invalid JSON response from EUVD API"
 

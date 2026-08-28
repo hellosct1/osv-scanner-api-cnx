@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # =============================================================================
-# 1-osv-api-drupal.sh — Query the OSV.dev API for Drupal vulnerabilities
+# osv-api-drupal.sh — Query the OSV.dev API for Drupal vulnerabilities
 # API  : https://google.github.io/osv.dev/api/
 # Ecosystem : Packagist (Composer)
 # Drupal packages follow the pattern  drupal/<module>  (e.g. drupal/core)
@@ -10,7 +10,7 @@
 set -euo pipefail
 
 OSV_API="https://api.osv.dev/v1"
-OUTPUT_DIR="."
+OUTPUT_DIR="/var/www/html/osv-scanner/rapport"
 TIMESTAMP=$(date +%Y%m%d_%H%M%S)
 
 # ---------------------------------------------------------------------------
@@ -43,7 +43,7 @@ OPTIONS
   -o <file>        Output JSON file  (default: auto-generated)
   -b               Batch mode: read "package version" pairs from stdin
   -l               List well-known Drupal modules and exit
-  -h               Show this help
+  -h, --help       Show this help
 
 EXAMPLES
   # Query Drupal core
@@ -333,6 +333,8 @@ COMMIT=""
 OUTFILE=""
 GET_ID=""
 BATCH=false
+
+[[ "${1:-}" == "--help" ]] && usage
 
 while getopts ":p:v:c:g:o:blh" opt; do
   case "$opt" in
