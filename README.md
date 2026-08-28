@@ -46,7 +46,7 @@ curl -s -H "Content-Type: application/json" \
 
 | Script | Technologie | Ecosystème OSV |
 |--------|------------|----------------|
-| `osv-api-drupal.sh` | Drupal / Composer | Packagist |
+| `drupal-osv-api.sh` | Drupal / Composer | Packagist |
 
 
 
@@ -54,15 +54,13 @@ curl -s -H "Content-Type: application/json" \
 
 Utilisation de API OSV via Drupal
 
-Voir les CVE pour 
-
-* Drupal core
+Voir les CVE pour les dossiers et sous dossiers
 
 
 
 | Script | Technologie | Ecosystème OSV |
 |--------|------------|----------------|
-| `osv-drupal.sh` | Drupal / Composer | Packagist |
+| `drupal-osv.sh` | Drupal / Composer | Packagist |
 
 
 
@@ -73,7 +71,7 @@ Validation d'un projet drupal avec l'API OSV
 
 | Script | Technologie | Ecosystème OSV |
 |--------|------------|----------------|
-| `osv-api-drupal-project.sh` | Drupal / Composer | Packagist |
+| `drupal-osv-api-project.sh` | Drupal / Composer | Packagist |
 
 
 
@@ -100,13 +98,28 @@ wget -O /opt/osv-db/osv-scanner/Packagist/all.zip \
 * Déclarer l'emplacement des vulnérabilités en local
 
 
-```
+```bash
 export OSV_SCANNER_LOCAL_DB_CACHE_DIRECTORY=/opt/osv-db
 
+```
+
+* affiche le chemin par defaut
+
+```bash
+printenv OSV_SCANNER_LOCAL_DB_CACHE_DIRECTORY
+
+```
+
+
+* Utilisation du mode offline
+
+
+```bash
 
 osv-scanner \
   --offline \
-  -r /var/www/html/osv-scanner/drupal
+  -r /var/www/html/osv-scanner/drupal-10.2/
+
 ```
 
 * exporter un rapport en HTML
@@ -118,18 +131,11 @@ osv-scanner \
   -r /var/www/html/osv-scanner/drupal \
   --format html \
   --output drupal-security-report.html 
-`
+
   
 ```
 
 
-> A VOIR
->
-> * Corrélation locale Drupal + OSV
-
-```
-composer show --format=json > packages.json
-```
 
 * Mise à jour
 La mise à jour de la base de données doit avoir accés à internet
@@ -159,24 +165,51 @@ osv_scan:
 ```
 
 
+#### Méthode 2 : personnaliser data source
+
+changer le chemin en local
+
+
+```
+
+osv-scanner --offline \
+  --local-db-path /var/www/html/osv-scanner/osv-db \
+  -r /var/www/html/osv-scanner/drupal-10.2/
+
+
+* Avec le rapport
+
+
+```
+osv-scanner \
+  --offline \
+  -r /var/www/html/osv-scanner/drupal \
+  --format html \
+  --output drupal-security-report.html 
+
+  
+```
+
+osv-scanner --download-offline-databases -r /var/www/html/osv-scanner/drupal-10.2/
 
 
 
-#### Méthode 2 : Compilation manuelle
+
+#### Méthode 3 : Compilation manuelle
 
 * Etape 1
 
 Convertir la source des vulnérabilités `Drupal` en  CVE pour etre compatble avec OSV 
 
 ```bash
-osv-drupal-to-cve.sh
+./drupal-to-cve-osv.sh
 ```
 
 * Etape 2
 
 
 ```bash
-osv-offline-drupal.sh
+drupal-offline-osv.sh
 ```
 
 
