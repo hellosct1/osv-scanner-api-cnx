@@ -21,6 +21,22 @@ Exemple de workflow automatisé
 https://google.github.io/osv-scanner/usage/scan-source
 
 
+### Liste des scripts
+
+| Fichier | Description |
+|---|---|
+| osv.sh | Vérification du fonctionnement OSV |
+| drupal-osv-api.sh | fonctionnalité expérimentale de l'API OSV avec Drupal |
+| drupal-osv.sh | Utilisation de API OSV via Drupal |
+| drupal-osv-api-project.sh | Validation d'un projet drupal avec l'API OSV |
+| drupal-to-cve-osv.sh | Convertir les vulnérabilités `Drupal` pour etre compatble avec OSV  |
+| drupal-offline-osv.sh |API OSV Hors ligne via Drupal |
+| euvd-1-download.sh |  |
+| euvd-api.sh | Utilisation de la fonctionnalité expérimentale de l'API EUVD |
+| euvd-download.sh |  |
+| test.sh |  |
+
+
 
 ## Open Source Vulnerabilities (OSV)
 
@@ -191,7 +207,8 @@ osv-scanner \
 ```
 
 osv-scanner --download-offline-databases -r /var/www/html/osv-scanner/drupal-10.2/
-
+  
+```
 
 
 
@@ -241,6 +258,8 @@ Utilisation de la fonctionnalité expérimentale de l'API EUVD
 #### methode 1
 
 utilisation du projet `òsv-schema`
+
+[](https://github.com/hellosct1/osv-schema)
 
 ```
 cd osv-schema/tools/euvd
