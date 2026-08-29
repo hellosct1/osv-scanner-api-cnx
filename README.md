@@ -236,6 +236,22 @@ Utilisation de la fonctionnalité expérimentale de l'API EUVD
 | `euvd-api.sh` | Toutes (enrichissement) | EUVD / ENISA |
 
 
+### mode offiline
+
+#### methode 1
+
+utilisation du projet `òsv-schema`
+
+```
+cd osv-schema/tools/euvd
+./dump_euvd.sh --vendor nodejs --fromDate 2026-01-01 --toDate 2026-31-12 euvd-data
+
+mkdir osv
+./convert_euvd.sh -o osv euvd-data/*.json
+
+```
+
+
 
 
 ### Utilisation autre projet

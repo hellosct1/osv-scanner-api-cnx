@@ -50,9 +50,6 @@ EXAMPLES
   # Lookup by EUVD ID
   $0 -i EUVD-2024-45012
 
-  # Lookup a Drupal advisory in EUVD
-  $0 -i DRUPAL-CORE-2023-002
-
   # Search by keyword
   $0 -s log4j
 
@@ -113,7 +110,7 @@ lookup_id() {
       --connect-timeout 10 \
       --max-time 30 \
       -H "Accept: application/json" \
-      -H "User-Agent: osv-api-euvd/1.0" \
+      -H "User-Agent: euvd-api/1.0" \
       "${EUVD_API}/search?text=${encoded_id}&page=0&pageSize=${PAGE_SIZE}")
     response=$(echo "$response" | jq 'if (.items | length) > 0 then .items[0] else {} end')
   else
@@ -121,7 +118,7 @@ lookup_id() {
       --connect-timeout 10 \
       --max-time 30 \
       -H "Accept: application/json" \
-      -H "User-Agent: osv-api-euvd/1.0" \
+      -H "User-Agent: euvd-api/1.0" \
       "${EUVD_API}/enisaid?id=${id}")
   fi
 
@@ -209,7 +206,7 @@ search_keyword() {
     --connect-timeout 10 \
     --max-time 30 \
     -H "Accept: application/json" \
-    -H "User-Agent: osv-api-euvd/1.0" \
+    -H "User-Agent: euvd-api/1.0" \
     "${EUVD_API}/search?text=${encoded_keyword}&page=${page}&pageSize=${size}")
 
   echo "$response" | jq -e . > /dev/null 2>&1 || die "Invalid JSON response from EUVD API"
@@ -274,7 +271,7 @@ batch_lookup() {
       --connect-timeout 10 \
       --max-time 30 \
       -H "Accept: application/json" \
-      -H "User-Agent: osv-api-euvd/1.0" \
+      -H "User-Agent: euvd-api/1.0" \
       "${EUVD_API}/enisaid?id=${id}")
 
     if echo "$response" | jq -e . > /dev/null 2>&1; then

@@ -5,7 +5,7 @@ set -euo pipefail
 # Configuration
 # -------------------------------------------------------------------
 
-PROJECT_PATH="/var/www/html/osv-scanner/demo"
+PROJECT_PATH="/var/www/html/osv-scanner/demo-symfony"
 OSV_REPORT="rapport-json.json"
 CVE_LIST="cves-osv.txt"
 EUVD_JSONL="rapport-euvd.json"
@@ -83,19 +83,33 @@ rm -f "${EUVD_JSONL}"
 while read -r CVE; do
   echo "Recherche EUVD pour ${CVE}"
 
-  RESPONSE=$(curl -s \
-    --connect-timeout 10 \
-    --max-time 30 \
-    "${EUVD_API}?text=${CVE}&page=0&size=10")
+RESPONSE=$(curl -s \
+  --connect-timeout 10 \
+  --max-time 30 \
+  "${EUVD_API}?query=${CVE}&page=0&size=10")
 
-  # On produit une ligne JSON par CVE pour faciliter le debug
-  jq -n \
-    --arg cve "${CVE}" \
-    --argjson euvd "${RESPONSE:-{}}" \
-    '{
-      cve: $cve,
-      euvd_response: $euvd
-    }' >> "${EUVD_JSONL}"
+# Vérification du JSON
+if echo "$RESPONSE" | jq empty >/dev/null 2>&1; then
+    jq -n \
+      --arg cve "$CVE" \
+      --argjson euvd "$RESPONSE" \
+      '{
+        cve: $cve,
+        euvd_response: $euvd
+      }' >> "$EUVD_JSONL"
+else
+    echo "Réponse EUVD invalide pour $CVE"
+
+    jq -n \
+      --arg cve "$CVE" \
+      '{
+        cve: $cve,
+        euvd_response: null,
+        error: "invalid_json"
+      }' >> "$EUVD_JSONL"
+fi
+
+
 
   # Petite pause pour eviter de solliciter trop rapidement l'API
   sleep 0.2

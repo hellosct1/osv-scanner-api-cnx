@@ -1,0 +1,4562 @@
+[
+  {
+    "id": "EUVD-2026-66183",
+    "enisaUuid": "28a38ad9-6425-3f5c-ae4c-51aadd508553",
+    "description": "Improper Neutralization of Input During Web Page Generation (\"Cross-site Scripting\") vulnerability in Drupal Drupal core allows Stored XSS. This issue affects Drupal core versions: from 0.0.0 to 10.6.13, from 11.3.0 to 11.3.14, from 11.4.0 to 11.4.4, from 0.0.0 to 11.0.*, from 0.0.0 to 11.1.*, from 0.0.0 to 11.2.*.",
+    "datePublished": "Aug 25, 2026, 10:22:20 PM",
+    "dateUpdated": "Aug 26, 2026, 5:49:10 PM",
+    "baseScore": 5.4,
+    "baseScoreVersion": "3.1",
+    "baseScoreVector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+    "references": "https://www.drupal.org/sa-core-2026-012\n",
+    "aliases": "GHSA-vqm5-mjxv-776v\nCVE-2026-55805\n",
+    "assigner": "drupal",
+    "epss": 0.13,
+    "enisaIdProduct": [
+      {
+        "id": "398084dc-2384-3a51-8869-bf9017aab9c9",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "0.0.0 <11.0.*"
+      },
+      {
+        "id": "9bd7ae87-83c4-3e30-9814-0cc4e531118d",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "0.0.0 <11.2.*"
+      },
+      {
+        "id": "a1858883-5d20-3b37-9e7e-a89d37629e09",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "0.0.0 <11.1.*"
+      },
+      {
+        "id": "a2313400-f1aa-3d38-adf1-57be2988a262",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "0.0.0 <10.6.13"
+      },
+      {
+        "id": "b5c92704-37d7-3fdc-9a91-451c20e4b325",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "11.3.0 <11.3.14"
+      },
+      {
+        "id": "f61dc517-57de-31cc-af4f-e84a2aef155d",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "11.4.0 <11.4.4"
+      }
+    ],
+    "enisaIdVendor": [
+      {
+        "id": "0a1fcf18-a1f4-32e2-8261-2590b87d8999",
+        "vendor": {
+          "name": "Drupal"
+        }
+      }
+    ]
+  },
+  {
+    "id": "EUVD-2026-66184",
+    "enisaUuid": "37430d25-9dd2-31ef-9f16-be57dd088770",
+    "description": "Improper Neutralization of Input During Web Page Generation (\"Cross-site Scripting\") vulnerability in Drupal Drupal core allows Cross-Site Scripting (XSS). This issue affects Drupal core versions: from 11.3.0 to 11.3.14, from 11.4.0 to 11.4.4, from 0.0.0 to 11.2.*.",
+    "datePublished": "Aug 25, 2026, 10:22:23 PM",
+    "dateUpdated": "Aug 26, 2026, 2:48:20 PM",
+    "baseScore": 4.7,
+    "baseScoreVersion": "3.1",
+    "baseScoreVector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:L/I:L/A:N",
+    "references": "https://www.drupal.org/sa-core-2026-011\n",
+    "aliases": "GHSA-pw57-w545-279f\nCVE-2026-15917\n",
+    "assigner": "drupal",
+    "epss": 0.13,
+    "enisaIdProduct": [
+      {
+        "id": "2a614f5e-f1b8-35c5-b5ed-14ec36bf2564",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "11.4.0 <11.4.4"
+      },
+      {
+        "id": "59e8256b-d6ed-3e44-a078-21737870a2d1",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "11.3.0 <11.3.14"
+      },
+      {
+        "id": "68dc3184-0f6f-333d-a4fa-d357a140ce00",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "0.0.0 <11.2.*"
+      }
+    ],
+    "enisaIdVendor": [
+      {
+        "id": "243ecbb8-7197-3012-9b63-1a6798776cca",
+        "vendor": {
+          "name": "Drupal"
+        }
+      }
+    ]
+  },
+  {
+    "id": "EUVD-2026-66185",
+    "enisaUuid": "04c42dc4-727b-34fa-9161-8777aa6aa9a1",
+    "description": "Missing Authorization vulnerability in Drupal Drupal core allows Forceful Browsing. This issue affects Drupal core versions: from 0.0.0 to 10.6.13, from 11.3.0 to 11.3.14, from 11.4.0 to 11.4.4, from 0.0.0 to 11.0.*, from 0.0.0 to 11.1.*, from 0.0.0 to 11.2.*.",
+    "datePublished": "Aug 25, 2026, 10:22:27 PM",
+    "dateUpdated": "Aug 26, 2026, 2:48:00 PM",
+    "baseScore": 4.2,
+    "baseScoreVersion": "3.1",
+    "baseScoreVector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:L/A:N",
+    "references": "https://www.drupal.org/sa-core-2026-010\n",
+    "aliases": "GHSA-jw5p-wr38-7rv7\nCVE-2026-15916\n",
+    "assigner": "drupal",
+    "epss": 0.12,
+    "enisaIdProduct": [
+      {
+        "id": "5285a244-3c10-3f62-8132-351f478a546a",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "0.0.0 <10.6.13"
+      },
+      {
+        "id": "678861c0-f25e-3c78-ab20-37194e7bf789",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "0.0.0 <11.2.*"
+      },
+      {
+        "id": "79169acb-3a4c-333c-a0d6-3ee5c68ca818",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "11.3.0 <11.3.14"
+      },
+      {
+        "id": "c1acb60c-8ba9-391e-ab1a-073f3b2f7b85",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "11.4.0 <11.4.4"
+      },
+      {
+        "id": "c9ace523-459f-3302-9a78-b8ebeb1a3489",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "0.0.0 <11.0.*"
+      },
+      {
+        "id": "e9f3c4bb-7013-3e06-92ff-3872caa62265",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "0.0.0 <11.1.*"
+      }
+    ],
+    "enisaIdVendor": [
+      {
+        "id": "5a3fabfb-3314-35ce-8b7c-e92cb593321c",
+        "vendor": {
+          "name": "Drupal"
+        }
+      }
+    ]
+  },
+  {
+    "id": "EUVD-2024-1058",
+    "enisaUuid": "745b83b1-e8d5-3e26-9da6-1a95462b8ff7",
+    "description": "A remote code execution vulnerability exists within multiple subsystems of Drupal 7.x and 8.x. This potentially allows attackers to exploit multiple attack vectors on a Drupal site, which could result in the site being compromised. This vulnerability is related to Drupal core - Highly critical - Remote Code Execution - SA-CORE-2018-002. Both SA-CORE-2018-002 and this vulnerability are being exploited in the wild.",
+    "datePublished": "Jul 19, 2018, 5:00:00 PM",
+    "dateUpdated": "Aug 13, 2026, 3:55:33 AM",
+    "baseScore": 9.8,
+    "baseScoreVersion": "3.1",
+    "baseScoreVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "references": "https://www.exploit-db.com/exploits/44557/\nhttp://www.securitytracker.com/id/1040754\nhttps://lists.debian.org/debian-lts-announce/2018/04/msg00030.html\nhttps://www.exploit-db.com/exploits/44542/\nhttps://www.debian.org/security/2018/dsa-4180\nhttps://www.drupal.org/sa-core-2018-004\nhttp://www.securityfocus.com/bid/103985\n",
+    "aliases": "GHSA-297x-j9pm-xjgg\nCVE-2018-7602\n",
+    "assigner": "drupal",
+    "epss": 99.24,
+    "exploitedSince": "Apr 13, 2022, 12:00:00 AM",
+    "enisaIdProduct": [
+      {
+        "id": "2aa85ad4-c8ac-3e5d-a41e-fbb6fb102208",
+        "product": {
+          "name": "core",
+          "vendor": {
+            "name": "OPNsense"
+          }
+        },
+        "product_version": "unspecified <8.5.3"
+      },
+      {
+        "id": "765d8b36-69cd-3cd6-81b9-5f21e18d2860",
+        "product": {
+          "name": "core",
+          "vendor": {
+            "name": "OPNsense"
+          }
+        },
+        "product_version": "unspecified <8.4.8"
+      },
+      {
+        "id": "db3c1be1-c7cc-34e3-92d7-d37cc0f7edee",
+        "product": {
+          "name": "core",
+          "vendor": {
+            "name": "OPNsense"
+          }
+        },
+        "product_version": "unspecified <7.59"
+      }
+    ],
+    "enisaIdVendor": [
+      {
+        "id": "a826ddf9-1ab4-32a0-ae8c-a9620664dddd",
+        "vendor": {
+          "name": "Drupal"
+        }
+      }
+    ]
+  },
+  {
+    "id": "EUVD-2026-43115",
+    "enisaUuid": "7578176b-3188-3d8b-b265-c7d71baa9152",
+    "description": "Improper Neutralization of Input During Web Page Generation (\"Cross-site Scripting\") vulnerability in Drupal Commerce Core allows Stored XSS. This issue affects Commerce Core versions: from 3.3.0 to 3.3.6.",
+    "datePublished": "Jul 10, 2026, 9:41:49 PM",
+    "dateUpdated": "Jul 14, 2026, 2:34:55 PM",
+    "baseScore": 5.4,
+    "baseScoreVersion": "3.1",
+    "baseScoreVector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+    "references": "https://www.drupal.org/sa-contrib-2026-041\n",
+    "aliases": "CVE-2026-10769\nGHSA-rq79-xhrq-f62x\n",
+    "assigner": "drupal",
+    "epss": 0.23,
+    "enisaIdProduct": [
+      {
+        "id": "b36e2613-00be-3f57-8977-4b58660ade61",
+        "product": {
+          "name": "Commerce Core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "3.3.0 <3.3.6"
+      }
+    ],
+    "enisaIdVendor": [
+      {
+        "id": "1f97bbfb-97db-31c5-a246-1946c256243a",
+        "vendor": {
+          "name": "Drupal"
+        }
+      }
+    ]
+  },
+  {
+    "id": "EUVD-2026-43081",
+    "enisaUuid": "02943338-49a1-307d-b5bb-b3127da2ece8",
+    "description": "Improperly Controlled Modification of Dynamically-Determined Object Attributes vulnerability in Drupal Drupal core allows Object Injection. This issue affects Drupal core versions: from 0.0.0 to 10.5.12, from 10.6.0 to 10.6.11, from 11.2.0 to 11.2.14, from 11.3.0 to 11.3.12, from 0.0.0 to 11.0.*, from 0.0.0 to 11.1.*.",
+    "datePublished": "Jul 10, 2026, 9:46:38 PM",
+    "dateUpdated": "Jul 13, 2026, 6:24:17 PM",
+    "baseScore": 5.9,
+    "baseScoreVersion": "3.1",
+    "baseScoreVector": "CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:N",
+    "references": "https://www.drupal.org/sa-core-2026-005\n",
+    "aliases": "GHSA-25f6-4hrw-j87c\nCVE-2026-55803\n",
+    "assigner": "drupal",
+    "epss": 0.35,
+    "enisaIdProduct": [
+      {
+        "id": "26009251-e2e6-3988-8226-39b50761de03",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "11.3.0 <11.3.12"
+      },
+      {
+        "id": "2d421e5a-97df-390f-b50e-99ea510f3e1a",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "0.0.0 <11.0.*"
+      },
+      {
+        "id": "4be35aa0-597e-350e-aabf-222bd6dc9f36",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "10.6.0 <10.6.11"
+      },
+      {
+        "id": "b3f75924-dd7c-3bcd-8934-c6cabec33568",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "0.0.0 <11.1.*"
+      },
+      {
+        "id": "b65324b5-2185-3284-91d7-ee0d784cda3c",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "11.2.0 <11.2.14"
+      },
+      {
+        "id": "ece3f76e-7236-367c-8f7b-d68dbce4a5fb",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "0.0.0 <10.5.12"
+      }
+    ],
+    "enisaIdVendor": [
+      {
+        "id": "ba23d7b7-1781-36f4-827e-e60181f15d0a",
+        "vendor": {
+          "name": "Drupal"
+        }
+      }
+    ]
+  },
+  {
+    "id": "EUVD-2026-43082",
+    "enisaUuid": "2ecfeb74-5141-3cea-bef0-d93efb05550c",
+    "description": "Improperly Controlled Modification of Dynamically-Determined Object Attributes vulnerability in Drupal Drupal core allows Object Injection. This issue affects Drupal core versions: from 0.0.0 to 10.5.12, from 10.6.0 to 10.6.11, from 11.2.0 to 11.2.14, from 11.3.0 to 11.3.12, from 0.0.0 to 11.0.*, from 0.0.0 to 11.1.*.",
+    "datePublished": "Jul 10, 2026, 9:46:39 PM",
+    "dateUpdated": "Jul 13, 2026, 6:23:35 PM",
+    "baseScore": 5.9,
+    "baseScoreVersion": "3.1",
+    "baseScoreVector": "CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:N",
+    "references": "https://www.drupal.org/sa-core-2026-006\n",
+    "aliases": "CVE-2026-55804\nGHSA-x7hc-r9m3-67vr\n",
+    "assigner": "drupal",
+    "epss": 0.35,
+    "enisaIdProduct": [
+      {
+        "id": "30d0888c-3c0e-3632-8592-9ff0049fd983",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "11.2.0 <11.2.14"
+      },
+      {
+        "id": "7d58073f-40d5-3f41-a581-35172ffda41c",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "11.3.0 <11.3.12"
+      },
+      {
+        "id": "837b9c0d-41b9-3eb4-81c5-b0186b36c731",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "10.6.0 <10.6.11"
+      },
+      {
+        "id": "8ae2f557-7f36-35e5-999a-2adca7a47ecb",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "0.0.0 <11.0.*"
+      },
+      {
+        "id": "aedafbb0-e4c5-3e29-a59c-1bbc82b0d654",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "0.0.0 <10.5.12"
+      },
+      {
+        "id": "c4d271b1-e926-3732-b79f-5ec01e61668f",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "0.0.0 <11.1.*"
+      }
+    ],
+    "enisaIdVendor": [
+      {
+        "id": "061a7e1d-c5bd-381e-aba7-0f33c72d9671",
+        "vendor": {
+          "name": "Drupal"
+        }
+      }
+    ]
+  },
+  {
+    "id": "EUVD-2026-43083",
+    "enisaUuid": "ab4a5102-43d7-3c11-b53a-7566054a0cb3",
+    "description": "URL Redirection to Untrusted Site ('Open Redirect') vulnerability in Drupal Drupal core allows Content Spoofing. This issue affects Drupal core versions: from 0.0.0 to 10.5.12, from 10.6.0 to 10.6.11, from 11.2.0 to 11.2.14, from 11.3.0 to 11.3.12, from 0.0.0 to 11.0.*, from 0.0.0 to 11.1.*.",
+    "datePublished": "Jul 10, 2026, 9:46:39 PM",
+    "dateUpdated": "Jul 13, 2026, 6:22:03 PM",
+    "baseScore": 5.9,
+    "baseScoreVersion": "3.1",
+    "baseScoreVector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
+    "references": "https://www.drupal.org/sa-core-2026-007\n",
+    "aliases": "CVE-2026-55806\nGHSA-vwxh-w8pq-6q99\n",
+    "assigner": "drupal",
+    "epss": 0.34,
+    "enisaIdProduct": [
+      {
+        "id": "06127034-32aa-305c-9eeb-79c435b4f639",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "0.0.0 <10.5.12"
+      },
+      {
+        "id": "28badd01-584c-30e8-baff-35cad5ac3cde",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "10.6.0 <10.6.11"
+      },
+      {
+        "id": "3ae9d5f0-f6d2-36f1-803d-bcc4e475a76d",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "11.3.0 <11.3.12"
+      },
+      {
+        "id": "618e0cfb-4e4d-37a6-a570-be96f93505b3",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "11.2.0 <11.2.14"
+      },
+      {
+        "id": "6999149a-577b-3386-b9df-d3d4a7a55f7d",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "0.0.0 <11.1.*"
+      },
+      {
+        "id": "ff010a49-15e2-321c-aa70-b362e053625f",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "0.0.0 <11.0.*"
+      }
+    ],
+    "enisaIdVendor": [
+      {
+        "id": "345663d9-1fe9-38f3-aa12-97cf5b245bca",
+        "vendor": {
+          "name": "Drupal"
+        }
+      }
+    ]
+  },
+  {
+    "id": "EUVD-2026-43084",
+    "enisaUuid": "cf5ef369-28ac-318b-a498-db66bdc4a5a2",
+    "description": "Server-Side Request Forgery (SSRF) vulnerability in Drupal Drupal core allows Server Side Request Forgery. This issue affects Drupal core versions: from 0.0.0 to 10.5.12, from 10.6.0 to 10.6.11, from 11.2.0 to 11.2.14, from 11.3.0 to 11.3.12, from 0.0.0 to 11.0.*, from 0.0.0 to 11.1.*.",
+    "datePublished": "Jul 10, 2026, 9:46:40 PM",
+    "dateUpdated": "Jul 13, 2026, 6:20:30 PM",
+    "baseScore": 3.1,
+    "baseScoreVersion": "3.1",
+    "baseScoreVector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:L/I:N/A:N",
+    "references": "https://www.drupal.org/sa-core-2026-008\n",
+    "aliases": "GHSA-qrwq-jwq3-8cc8\nCVE-2026-55807\n",
+    "assigner": "drupal",
+    "epss": 0.22,
+    "enisaIdProduct": [
+      {
+        "id": "01b3c5c6-f5ce-3b08-9421-93e91eceed18",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "11.2.0 <11.2.14"
+      },
+      {
+        "id": "0c683305-78f1-3517-9387-320995d2e987",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "0.0.0 <10.5.12"
+      },
+      {
+        "id": "1fd0d9af-a74b-355b-be3c-ef4b48f0ef53",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "10.6.0 <10.6.11"
+      },
+      {
+        "id": "8769decb-3f90-36eb-8398-3acffbabd30e",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "0.0.0 <11.0.*"
+      },
+      {
+        "id": "9b0c1446-5325-3505-915b-5a53384d6dfe",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "11.3.0 <11.3.12"
+      },
+      {
+        "id": "e42e34bb-5c92-3e6e-989b-5a2987d0386e",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "0.0.0 <11.1.*"
+      }
+    ],
+    "enisaIdVendor": [
+      {
+        "id": "eb002721-1997-305d-b763-650023f2081e",
+        "vendor": {
+          "name": "Drupal"
+        }
+      }
+    ]
+  },
+  {
+    "id": "EUVD-2026-43085",
+    "enisaUuid": "70a3d85c-c6a7-39c2-b0c1-90de8ef376d4",
+    "description": "Improper Neutralization of Input During Web Page Generation (\"Cross-site Scripting\") vulnerability in Drupal Drupal core allows Cross-Site Scripting (XSS). This issue affects Drupal core versions: from 0.0.0 to 10.5.12, from 10.6.0 to 10.6.11, from 11.2.0 to 11.2.14, from 11.3.0 to 11.3.12, from 0.0.0 to 11.0.*, from 0.0.0 to 11.1.*.",
+    "datePublished": "Jul 10, 2026, 9:46:43 PM",
+    "dateUpdated": "Jul 13, 2026, 6:18:56 PM",
+    "baseScore": 5.4,
+    "baseScoreVersion": "3.1",
+    "baseScoreVector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+    "references": "https://www.drupal.org/sa-core-2026-009\n",
+    "aliases": "GHSA-9wh5-5mcm-hf2j\nCVE-2026-55808\n",
+    "assigner": "drupal",
+    "epss": 0.27,
+    "enisaIdProduct": [
+      {
+        "id": "01958fa2-e0d5-357b-8435-a76f42de7b56",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "0.0.0 <11.1.*"
+      },
+      {
+        "id": "60730f88-b617-349b-8779-eb686c56b4af",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "10.6.0 <10.6.11"
+      },
+      {
+        "id": "9b90bdff-8c13-3f2e-97d4-7e5227f46fe6",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "11.3.0 <11.3.12"
+      },
+      {
+        "id": "c07abba7-4c35-30bc-abb9-2eb8895249d6",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "0.0.0 <11.0.*"
+      },
+      {
+        "id": "d9124087-2f01-3a4d-b89c-a21be85f91e6",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "11.2.0 <11.2.14"
+      },
+      {
+        "id": "da70b928-8842-30fe-aadd-574a4c30829d",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "0.0.0 <10.5.12"
+      }
+    ],
+    "enisaIdVendor": [
+      {
+        "id": "b1a277bd-03ed-3fef-9cb0-cf9640137385",
+        "vendor": {
+          "name": "Drupal"
+        }
+      }
+    ]
+  },
+  {
+    "id": "EUVD-2026-31002",
+    "enisaUuid": "0a0f8da6-6916-31d9-839f-e11661785c26",
+    "description": "Improper Neutralization of Input During Web Page Generation (\"Cross-site Scripting\") vulnerability in Drupal Drupal core allows Cross-Site Scripting (XSS).\n\nThis issue affects Drupal core: from 11.3.0 before 11.3.7.",
+    "datePublished": "May 19, 2026, 10:28:07 PM",
+    "dateUpdated": "Jun 22, 2026, 3:07:43 PM",
+    "baseScore": 6.1,
+    "baseScoreVersion": "3.1",
+    "baseScoreVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+    "references": "https://www.drupal.org/sa-core-2026-003\n",
+    "aliases": "CVE-2026-6367\nGHSA-pw6f-3999-xp7g\n",
+    "assigner": "drupal",
+    "epss": 0.2,
+    "enisaIdProduct": [
+      {
+        "id": "7eec0b0e-e058-323a-ac1a-6252690278f4",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "11.3.0 <11.3.7"
+      }
+    ],
+    "enisaIdVendor": [
+      {
+        "id": "c5d180c8-8915-3c8d-9780-f6db336e5170",
+        "vendor": {
+          "name": "Drupal"
+        }
+      }
+    ]
+  },
+  {
+    "id": "EUVD-2026-31153",
+    "enisaUuid": "40aa7c09-b745-3fbd-b2a9-097c250ade1f",
+    "description": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Drupal Drupal core allows SQL Injection.\n\nThis issue affects Drupal core: from 8.9.0 before 10.4.10, from 10.5.0 before 10.5.10, from 10.6.0 before 10.6.9, from 11.0.0 before 11.1.10, from 11.2.0 before 11.2.12, from 11.3.0 before 11.3.10.",
+    "datePublished": "May 20, 2026, 6:20:52 PM",
+    "dateUpdated": "May 23, 2026, 3:55:38 AM",
+    "baseScore": 9.8,
+    "baseScoreVersion": "3.1",
+    "baseScoreVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "references": "https://www.drupal.org/sa-core-2026-004\n",
+    "aliases": "GHSA-ghwc-95x2-682j\nCVE-2026-9082\n",
+    "assigner": "drupal",
+    "epss": 87.89,
+    "exploitedSince": "May 22, 2026, 12:00:00 AM",
+    "enisaIdProduct": [
+      {
+        "id": "328fcc40-cab5-3388-8def-11f10115eb0c",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "8.9.0 <10.4.10"
+      },
+      {
+        "id": "7017a59a-f4aa-339f-8592-aec6ebd74e79",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "11.0.0 <11.1.10"
+      },
+      {
+        "id": "d25286e3-d1cd-3b18-85bc-55c050430c28",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "11.3.0 <11.3.10"
+      },
+      {
+        "id": "f2c90a7b-bc20-370e-9f4f-b08400a0f1f9",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "10.6.0 <10.6.9"
+      },
+      {
+        "id": "f48b0414-856e-33a6-8490-0c1b4e4e78ba",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "10.5.0 <10.5.10"
+      },
+      {
+        "id": "f95c693c-dfb7-331e-8645-785e9e14b0d1",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "11.2.0 <11.2.12"
+      }
+    ],
+    "enisaIdVendor": [
+      {
+        "id": "2c04c225-0e84-3b9d-8a52-ea4ed23f59fa",
+        "vendor": {
+          "name": "Drupal"
+        }
+      }
+    ]
+  },
+  {
+    "id": "EUVD-2026-30999",
+    "enisaUuid": "4395913b-c807-3d0c-bc26-e810dd9e4a9c",
+    "description": "Improperly Controlled Modification of Dynamically-Determined Object Attributes vulnerability in Drupal Drupal core allows Object Injection.\n\nThis issue affects Drupal core: from 8.0.0 before 10.5.9, from 10.6.0 before 10.6.7, from 11.0.0 before 11.2.11, from 11.3.0 before 11.3.7.",
+    "datePublished": "May 19, 2026, 10:27:46 PM",
+    "dateUpdated": "May 21, 2026, 3:55:14 AM",
+    "baseScore": 6.6,
+    "baseScoreVersion": "3.1",
+    "baseScoreVector": "CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:H",
+    "references": "https://www.drupal.org/sa-core-2026-002\n",
+    "aliases": "CVE-2026-6366\nGHSA-xmjc-63pr-2mpg\n",
+    "assigner": "drupal",
+    "epss": 0.4,
+    "enisaIdProduct": [
+      {
+        "id": "1e318e14-4a5b-365b-b106-2e9f1271835e",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "11.3.0 <11.3.7"
+      },
+      {
+        "id": "226c2ad7-dfd5-3b28-b76d-ed8e5e557b1b",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "10.6.0 <10.6.7"
+      },
+      {
+        "id": "81fec037-b98a-3291-b226-a47a7ad346f5",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "11.0.0 <11.2.11"
+      },
+      {
+        "id": "cc69a07a-0af8-3db7-aac0-7adc647d51e2",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "8.0.0 <10.5.9"
+      }
+    ],
+    "enisaIdVendor": [
+      {
+        "id": "c1b6def7-300b-3aa1-b94e-af603d5c407a",
+        "vendor": {
+          "name": "Drupal"
+        }
+      }
+    ]
+  },
+  {
+    "id": "EUVD-2026-31000",
+    "enisaUuid": "2e4f4a7d-fb72-3ce0-b918-2a3284dd4073",
+    "description": "Improper Neutralization of Input During Web Page Generation (\"Cross-site Scripting\") vulnerability in Drupal Drupal core allows Cross-Site Scripting (XSS).\n\nThis issue affects Drupal core: from 8.0.0 before 10.5.9, from 10.6.0 before 10.6.7, from 11.0.0 before 11.2.11, from 11.3.0 before 11.3.7.",
+    "datePublished": "May 19, 2026, 10:27:21 PM",
+    "dateUpdated": "May 20, 2026, 1:35:14 PM",
+    "baseScore": 6.1,
+    "baseScoreVersion": "3.1",
+    "baseScoreVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+    "references": "https://www.drupal.org/sa-core-2026-001\n",
+    "aliases": "CVE-2026-6365\nGHSA-f3cj-mjqm-fhvj\n",
+    "assigner": "drupal",
+    "epss": 0.24,
+    "enisaIdProduct": [
+      {
+        "id": "294bc0cf-bee5-3b24-b19b-6c6a7c1643f9",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "11.0.0 <11.2.11"
+      },
+      {
+        "id": "57f71604-0502-30ad-8aac-9ecc04a65170",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "10.6.0 <10.6.7"
+      },
+      {
+        "id": "82f9b9a9-56bb-3375-aa01-d3d1f9a0907b",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "8.0.0 <10.5.9"
+      },
+      {
+        "id": "a43d691e-eaf4-3c8b-a76e-f6408b23fc12",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "11.3.0 <11.3.7"
+      }
+    ],
+    "enisaIdVendor": [
+      {
+        "id": "4af72871-3fca-348f-8cb1-15e31ae5762c",
+        "vendor": {
+          "name": "Drupal"
+        }
+      }
+    ]
+  },
+  {
+    "id": "EUVD-2025-9044",
+    "enisaUuid": "bf53a659-58e0-31b1-92ee-5c01424cb27c",
+    "description": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Drupal Drupal core allows Cross-Site Scripting (XSS).This issue affects Drupal core: from 8.0.0 before 10.3.14, from 10.4.0 before 10.4.5, from 11.0.0 before 11.0.13, from 11.1.0 before 11.1.5. It also affects the Drupal 7 module from versions 7.x-1.0 through 7.x-1.12.",
+    "datePublished": "Mar 31, 2025, 9:35:20 PM",
+    "dateUpdated": "Apr 2, 2026, 10:35:46 PM",
+    "baseScore": 5.4,
+    "baseScoreVersion": "3.1",
+    "baseScoreVector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+    "references": "https://www.drupal.org/sa-core-2025-004\nhttps://www.herodevs.com/vulnerability-directory/cve-2025-31675\nhttps://d7es.tag1.com/security-advisories/link-moderately-critical-cross-site-scripting-sa-core-2025-004\n",
+    "aliases": "CVE-2025-31675\nGHSA-m4wj-hhwj-47qp\n",
+    "assigner": "drupal",
+    "epss": 0.49,
+    "enisaIdProduct": [
+      {
+        "id": "5d7c4601-30c0-350c-b17f-8456b0051cf3",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "11.0.0 <11.0.13"
+      },
+      {
+        "id": "9ab076fd-bfff-36bf-8af6-a0f422802353",
+        "product": {
+          "name": "Link",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "7.x-1.0 ≤7.x-1.12"
+      },
+      {
+        "id": "ca317791-a373-3197-b007-c296bda81dde",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "10.4.0 <10.4.5"
+      },
+      {
+        "id": "ca9bb2de-9450-3bcd-91b4-adb6863959b8",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "8.0.0 <10.3.14"
+      },
+      {
+        "id": "de1f1ca1-b78c-3f6d-95f6-54c447a5d825",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "11.1.0 <11.1.5"
+      }
+    ],
+    "enisaIdVendor": [
+      {
+        "id": "4b13a4e3-a204-36de-831d-78488023ba0b",
+        "vendor": {
+          "name": "Drupal"
+        }
+      }
+    ]
+  },
+  {
+    "id": "EUVD-2025-198029",
+    "enisaUuid": "1af74168-b05f-3064-baee-572e48e2996f",
+    "description": "Improperly Controlled Modification of Dynamically-Determined Object Attributes vulnerability in Drupal Drupal core allows Object Injection.This issue affects Drupal core: from 8.0.0 before 10.4.9, from 10.5.0 before 10.5.6, from 11.0.0 before 11.1.9, from 11.2.0 before 11.2.8.",
+    "datePublished": "Nov 18, 2025, 4:54:56 PM",
+    "dateUpdated": "Feb 26, 2026, 4:56:44 PM",
+    "baseScore": 5.9,
+    "baseScoreVersion": "3.1",
+    "baseScoreVector": "CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:N",
+    "references": "https://www.drupal.org/sa-core-2025-006\n",
+    "aliases": "GHSA-m6vv-vcj8-w8m7\nCVE-2025-13081\n",
+    "assigner": "drupal",
+    "epss": 0.26,
+    "enisaIdProduct": [
+      {
+        "id": "0a56fec5-bf2f-3a8a-b9a2-53145682279e",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "11.2.0 <11.2.8"
+      },
+      {
+        "id": "4ed5a624-0866-39d2-8cfa-8f24f9fcc8ea",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "8.0.0 <10.4.9"
+      },
+      {
+        "id": "6caa0391-2317-316a-9bb0-48fb210aaccb",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "10.5.0 <10.5.6"
+      },
+      {
+        "id": "f27be55a-b812-34ef-af36-75d4167fb13c",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "11.0.0 <11.1.9"
+      }
+    ],
+    "enisaIdVendor": [
+      {
+        "id": "59387407-8c9f-365b-9804-220e3502d482",
+        "vendor": {
+          "name": "Drupal"
+        }
+      }
+    ]
+  },
+  {
+    "id": "EUVD-2025-198027",
+    "enisaUuid": "12ad2673-ea61-3615-9bf9-198d9ef895e2",
+    "description": "Use of Web Browser Cache Containing Sensitive Information vulnerability in Drupal Drupal core allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects Drupal core: from 8.0.0 before 10.4.9, from 10.5.0 before 10.5.6, from 11.0.0 before 11.1.9, from 11.2.0 before 11.2.8, from 7.0 before 7.103.",
+    "datePublished": "Nov 18, 2025, 4:55:37 PM",
+    "dateUpdated": "Jan 16, 2026, 8:14:00 PM",
+    "baseScore": 3.7,
+    "baseScoreVersion": "3.1",
+    "baseScoreVector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:N",
+    "references": "https://www.drupal.org/sa-core-2025-008\n",
+    "aliases": "CVE-2025-13083\nGHSA-mhpg-hpj5-73r2\n",
+    "assigner": "drupal",
+    "epss": 0.26,
+    "enisaIdProduct": [
+      {
+        "id": "2f881c1e-1b2b-3b24-896d-98ec5ef54970",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "11.2.0 <11.2.8"
+      },
+      {
+        "id": "305040c4-4575-353a-b31a-eb58a9be0897",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "10.5.0 <10.5.6"
+      },
+      {
+        "id": "94b2a0d2-3d39-33e6-85d1-762e98f45e2d",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "8.0.0 <10.4.9"
+      },
+      {
+        "id": "a7c45e39-b052-31a4-836a-a913ad81fd2e",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "11.0.0 <11.1.9"
+      },
+      {
+        "id": "cb493182-58be-362e-b0b7-a677e2b2606b",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "7.0 ≤7.103"
+      }
+    ],
+    "enisaIdVendor": [
+      {
+        "id": "28fc7e27-71f0-3b90-b879-c45f5ea4e9af",
+        "vendor": {
+          "name": "Drupal"
+        }
+      }
+    ]
+  },
+  {
+    "id": "EUVD-2025-198031",
+    "enisaUuid": "479a9d1a-50dc-33d1-abb6-aa576778567e",
+    "description": "Improper Check for Unusual or Exceptional Conditions vulnerability in Drupal Drupal core allows Forceful Browsing.This issue affects Drupal core: from 8.0.0 before 10.4.9, from 10.5.0 before 10.5.6, from 11.0.0 before 11.1.9, from 11.2.0 before 11.2.8.",
+    "datePublished": "Nov 18, 2025, 4:54:32 PM",
+    "dateUpdated": "Nov 18, 2025, 8:35:16 PM",
+    "baseScore": 5.3,
+    "baseScoreVersion": "3.1",
+    "baseScoreVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+    "references": "https://www.drupal.org/sa-core-2025-005\n",
+    "aliases": "CVE-2025-13080\nGHSA-83v7-c2cf-p9c2\n",
+    "assigner": "drupal",
+    "epss": 0.32,
+    "enisaIdProduct": [
+      {
+        "id": "0d43662c-c4a4-38c4-bfb1-a6f8e88ec73e",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "10.5.0 <10.5.6"
+      },
+      {
+        "id": "3f5a05ac-82d0-3075-aa66-02f8b0511c8e",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "8.0.0 <10.4.9"
+      },
+      {
+        "id": "a928c53b-a5a3-3450-89de-e56f9af57f84",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "11.0.0 <11.1.9"
+      },
+      {
+        "id": "b19c4c84-eb86-3c88-a903-3e7478e26f8b",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "11.2.0 <11.2.8"
+      }
+    ],
+    "enisaIdVendor": [
+      {
+        "id": "f7e62025-10ea-300a-84b0-33494aff1719",
+        "vendor": {
+          "name": "Drupal"
+        }
+      }
+    ]
+  },
+  {
+    "id": "EUVD-2025-198028",
+    "enisaUuid": "73c744dd-1165-303a-bf05-f49357be28e3",
+    "description": "User Interface (UI) Misrepresentation of Critical Information vulnerability in Drupal Drupal core allows Content Spoofing.This issue affects Drupal core: from 8.0.0 before 10.4.9, from 10.5.0 before 10.5.6, from 11.0.0 before 11.1.9, from 11.2.0 before 11.2.8.",
+    "datePublished": "Nov 18, 2025, 4:55:16 PM",
+    "dateUpdated": "Nov 18, 2025, 8:32:44 PM",
+    "baseScore": 4.3,
+    "baseScoreVersion": "3.1",
+    "baseScoreVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:L",
+    "references": "https://www.drupal.org/sa-core-2025-007\n",
+    "aliases": "CVE-2025-13082\nGHSA-h89p-5896-f4q8\n",
+    "assigner": "drupal",
+    "epss": 0.23,
+    "enisaIdProduct": [
+      {
+        "id": "2213c1ff-e965-3848-a71c-33a6e5974af1",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "10.5.0 <10.5.6"
+      },
+      {
+        "id": "4fa215e3-c6aa-3099-9d47-05e71faaefd4",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "11.2.0 <11.2.8"
+      },
+      {
+        "id": "5dcf408f-ce33-3155-818a-01ac856ab3d6",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "11.0.0 <11.1.9"
+      },
+      {
+        "id": "b0da23f7-7272-3fab-8bcd-97b44742582b",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "8.0.0 <10.4.9"
+      }
+    ],
+    "enisaIdVendor": [
+      {
+        "id": "3c0859cc-be9d-3aa9-911d-1f30393c097e",
+        "vendor": {
+          "name": "Drupal"
+        }
+      }
+    ]
+  },
+  {
+    "id": "EUVD-2022-2184",
+    "enisaUuid": "53720512-6508-36ec-a2b1-4933f3035866",
+    "description": "Some field types do not properly sanitize data from non-form sources in Drupal 8.5.x before 8.5.11 and Drupal 8.6.x before 8.6.10. This can lead to arbitrary PHP code execution in some cases. A site is only affected by this if one of the following conditions is met: The site has the Drupal 8 core RESTful Web Services (rest) module enabled and allows PATCH or POST requests, or the site has another web services module enabled, like JSON:API in Drupal 8, or Services or RESTful Web Services in Drupal 7. (Note: The Drupal 7 Services module itself does not require an update at this time, but you should apply other contributed updates associated with this advisory if Services is in use.)",
+    "datePublished": "Feb 21, 2019, 9:00:00 PM",
+    "dateUpdated": "Oct 21, 2025, 11:45:43 PM",
+    "baseScore": 8.1,
+    "baseScoreVersion": "3.1",
+    "baseScoreVector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "references": "https://www.synology.com/security/advisory/Synology_SA_19_09\nhttps://www.exploit-db.com/exploits/46452/\nhttps://www.drupal.org/sa-core-2019-003\nhttps://www.exploit-db.com/exploits/46510/\nhttp://www.securityfocus.com/bid/107106\nhttps://www.exploit-db.com/exploits/46459/\n",
+    "aliases": "CVE-2019-6340\nGHSA-3gx6-h57h-rm27\n",
+    "assigner": "drupal",
+    "epss": 92.02,
+    "exploitedSince": "Mar 25, 2022, 12:00:00 AM",
+    "enisaIdProduct": [
+      {
+        "id": "0f6730cf-22a7-371c-bc67-5ca54ac5a2bb",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "8.5 <8.5.11"
+      },
+      {
+        "id": "f925b38f-cd72-380f-99e7-a09807a27440",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "8.6 <8.6.10"
+      }
+    ],
+    "enisaIdVendor": [
+      {
+        "id": "61f61dd2-d972-3861-9218-f96cf6dd0032",
+        "vendor": {
+          "name": "Drupal"
+        }
+      }
+    ]
+  },
+  {
+    "id": "EUVD-2021-2168",
+    "enisaUuid": "d262961d-fbcb-38a5-ba13-3f74eafb3a3e",
+    "description": "Drupal core does not properly sanitize certain filenames on uploaded files, which can lead to files being interpreted as the incorrect extension and served as the wrong MIME type or executed as PHP for certain hosting configurations. This issue affects: Drupal Drupal Core 9.0 versions prior to 9.0.8, 8.9 versions prior to 8.9.9, 8.8 versions prior to 8.8.11, and 7 versions prior to 7.74.",
+    "datePublished": "Nov 20, 2020, 3:40:39 PM",
+    "dateUpdated": "Oct 21, 2025, 11:35:32 PM",
+    "baseScore": 8.8,
+    "baseScoreVersion": "3.1",
+    "baseScoreVector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "references": "https://www.drupal.org/sa-core-2020-012\nhttps://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/KWM4CTMEGAC4I2CHYNJVSROY4CVXVEUT/\nhttps://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/5KSFM672XW3X6BR7TVKRD63SLZGKK437/\n",
+    "aliases": "GHSA-68jc-v27h-vhmw\nCVE-2020-13671\n",
+    "assigner": "drupal",
+    "epss": 35.35,
+    "exploitedSince": "Jan 18, 2022, 12:00:00 AM",
+    "enisaIdProduct": [
+      {
+        "id": "14381db9-aa2f-360c-bc1d-a086159c343a",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "7 versions prior to 7.74"
+      },
+      {
+        "id": "b690cd15-6c6a-3756-8a7d-45a8e7d89f5b",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "8.9 versions prior to 8.9.9"
+      },
+      {
+        "id": "cc49f54c-4e53-3f43-99c3-a489e61ec428",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "9.0 versions prior to 9.0.8"
+      },
+      {
+        "id": "d56fed45-eea2-3d05-b77a-03a64322c8cf",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "8.8 versions prior to 8.8.11"
+      }
+    ],
+    "enisaIdVendor": [
+      {
+        "id": "2ac9027d-6859-32ca-9bb5-0d2b1b1addb7",
+        "vendor": {
+          "name": "Drupal"
+        }
+      }
+    ]
+  },
+  {
+    "id": "EUVD-2025-9043",
+    "enisaUuid": "2ea6e463-a900-33b8-b5a5-7585de8a7dcc",
+    "description": "Incorrect Authorization vulnerability in Drupal Drupal core allows Forceful Browsing.This issue affects Drupal core: from 8.0.0 before 10.3.13, from 10.4.0 before 10.4.3, from 11.0.0 before 11.0.12, from 11.1.0 before 11.1.3.",
+    "datePublished": "Mar 31, 2025, 9:34:16 PM",
+    "dateUpdated": "Apr 29, 2025, 3:47:25 PM",
+    "baseScore": 4.6,
+    "baseScoreVersion": "3.1",
+    "baseScoreVector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:L/I:L/A:N",
+    "references": "https://www.drupal.org/sa-core-2025-002\n",
+    "aliases": "CVE-2025-31673\nGHSA-wpp8-fjgf-pwc7\n",
+    "assigner": "drupal",
+    "epss": 0.31,
+    "enisaIdProduct": [
+      {
+        "id": "2a542c3f-27e7-33e5-b9a2-cef1871b68c7",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "11.0.0 <11.0.12"
+      },
+      {
+        "id": "3720ee72-1602-3a42-90ca-05101a04a547",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "10.4.0 <10.4.3"
+      },
+      {
+        "id": "67c588d1-5ef2-3582-92ab-67f9f02fced3",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "11.0.0 <11.0.12"
+      },
+      {
+        "id": "6dd7787c-06e9-3026-a468-d34e49ad2eee",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "8.0.0 <10.3.13"
+      },
+      {
+        "id": "7a8e5966-b1a6-3d16-931f-06de5e5e2581",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "8.0.0 <10.3.13"
+      },
+      {
+        "id": "b0160d37-5bec-3afc-bad4-338e3afc66bb",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "11.1.0 <11.1.3"
+      },
+      {
+        "id": "b58179db-7bf6-3e01-8823-b378b88fc332",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "10.4.0 <10.4.3"
+      },
+      {
+        "id": "b5b2d411-0034-3cf7-8d4c-6d86aed624ee",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "11.1.0 <11.1.3"
+      }
+    ],
+    "enisaIdVendor": [
+      {
+        "id": "99ae2239-4245-3731-bee7-7fa7b47f910b",
+        "vendor": {
+          "name": "Drupal"
+        }
+      }
+    ]
+  },
+  {
+    "id": "EUVD-2024-2616",
+    "enisaUuid": "614c2eb4-d36d-3a80-bb8a-686b11da5c93",
+    "description": "core/authorize.php in Drupal 11.x-dev allows Full Path Disclosure (even when error logging is None) if the value of hash_salt is file_get_contents of a file that does not exist.",
+    "datePublished": "Aug 29, 2024, 12:00:00 AM",
+    "dateUpdated": "Apr 21, 2025, 2:58:52 PM",
+    "baseScore": 5.3,
+    "baseScoreVersion": "3.1",
+    "baseScoreVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+    "references": "https://www.drupal.org/project/drupal/issues/3457781\nhttps://senscybersecurity.nl/CVE-2024-45440-Explained/\n",
+    "aliases": "GHSA-mg8j-w93w-xjgc\nCVE-2024-45440\n",
+    "assigner": "drupal",
+    "epss": 9.27,
+    "enisaIdProduct": [
+      {
+        "id": "50bbf38f-631d-3511-b6a0-9bf7c375f6e3",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "v11.x-dev"
+      },
+      {
+        "id": "ed6148d8-0c20-348d-b545-e618f369bce5",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "v11.x-dev"
+      }
+    ],
+    "enisaIdVendor": [
+      {
+        "id": "8b945e7f-8242-3df3-8cdc-2237af6f9025",
+        "vendor": {
+          "name": "Drupal"
+        }
+      }
+    ]
+  },
+  {
+    "id": "EUVD-2025-9049",
+    "enisaUuid": "23100946-e7e0-3eca-a3d4-18795a6cb56a",
+    "description": "Improperly Controlled Modification of Dynamically-Determined Object Attributes vulnerability in Drupal Drupal core allows Object Injection.This issue affects Drupal core: from 8.0.0 before 10.3.13, from 10.4.0 before 10.4.3, from 11.0.0 before 11.0.12, from 11.1.0 before 11.1.3.",
+    "datePublished": "Mar 31, 2025, 9:34:53 PM",
+    "dateUpdated": "Apr 3, 2025, 5:18:14 PM",
+    "baseScore": 7.5,
+    "baseScoreVersion": "3.1",
+    "baseScoreVector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "references": "https://www.drupal.org/sa-core-2025-003\n",
+    "aliases": "GHSA-2qph-q8xw-gv7q\nCVE-2025-31674\n",
+    "assigner": "drupal",
+    "epss": 0.57,
+    "enisaIdProduct": [
+      {
+        "id": "0ba4e522-8103-3900-b90b-121bc3b0f630",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "11.0.0 <11.0.12"
+      },
+      {
+        "id": "0cb6cc50-af04-3700-a4d1-84d81a7ab75d",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "10.4.0 <10.4.3"
+      },
+      {
+        "id": "3cc4644d-b4a6-39fd-a496-c560a9e624f6",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "10.4.0 <10.4.3"
+      },
+      {
+        "id": "49169309-4b94-36be-8c70-e1622788bc39",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "8.0.0 <10.3.13"
+      },
+      {
+        "id": "8d837d1b-185f-3c6f-8720-b885ecd8a591",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "11.1.0 <11.1.3"
+      },
+      {
+        "id": "921cc48d-cca5-3872-85f1-662d2f5fb259",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "11.1.0 <11.1.3"
+      },
+      {
+        "id": "e80f54f4-68ae-3cdb-88db-2651ed690ab3",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "8.0.0 <10.3.13"
+      },
+      {
+        "id": "edaab804-61ba-3221-a70b-8d6850d74f5f",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "11.0.0 <11.0.12"
+      }
+    ],
+    "enisaIdVendor": [
+      {
+        "id": "2d86e1f7-b83c-3bbe-a33a-b32d9e516125",
+        "vendor": {
+          "name": "Drupal"
+        }
+      }
+    ]
+  },
+  {
+    "id": "EUVD-2025-9027",
+    "enisaUuid": "66388e6c-9090-3c7f-96b1-c40fcc12ee10",
+    "description": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Drupal Drupal core allows Cross-Site Scripting (XSS).This issue affects Drupal core: from 8.0.0 before 10.3.13, from 10.4.0 before 10.4.3, from 11.0.0 before 11.0.12, from 11.1.0 before 11.1.3.",
+    "datePublished": "Mar 31, 2025, 9:33:30 PM",
+    "dateUpdated": "Apr 1, 2025, 1:29:23 PM",
+    "baseScore": 6.1,
+    "baseScoreVersion": "3.1",
+    "baseScoreVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+    "references": "https://www.drupal.org/sa-core-2025-001\n",
+    "aliases": "GHSA-39g6-x4x8-5jcm\nCVE-2025-3057\n",
+    "assigner": "drupal",
+    "epss": 0.3,
+    "enisaIdProduct": [
+      {
+        "id": "1ac2e360-e257-328a-9c47-cf64fbdad20d",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "8.0.0 <10.3.13"
+      },
+      {
+        "id": "1c82bb72-1fdf-3ef2-9996-5fc06bd3bbb3",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "10.4.0 <10.4.3"
+      },
+      {
+        "id": "4fa1679f-397c-33b1-b126-cc8c9b71bd17",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "11.1.0 <11.1.3"
+      },
+      {
+        "id": "9dd0e844-a0d9-3faa-b26f-43db5430051f",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "10.4.0 <10.4.3"
+      },
+      {
+        "id": "bc3760c7-9b09-3d42-ad04-31dcd7b3f674",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "11.0.0 <11.0.12"
+      },
+      {
+        "id": "c82e4502-a963-3fdf-8fed-50624fbc5aad",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "8.0.0 <10.3.13"
+      },
+      {
+        "id": "d3dbe46f-9605-3f49-bb28-994fc68265e9",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "11.1.0 <11.1.3"
+      },
+      {
+        "id": "df3cd47f-7ed0-36d9-a268-732726450e29",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "11.0.0 <11.0.12"
+      }
+    ],
+    "enisaIdVendor": [
+      {
+        "id": "b4efb048-abf3-3e7f-8332-073c03139fb9",
+        "vendor": {
+          "name": "Drupal"
+        }
+      }
+    ]
+  },
+  {
+    "id": "EUVD-2023-1301",
+    "enisaUuid": "f0d6330a-5cff-37b3-9928-d50693ee3c08",
+    "description": "Drupal core's form API has a vulnerability where certain contributed or custom modules' forms may be vulnerable to improper input validation. This could allow an attacker to inject disallowed values or overwrite data. Affected forms are uncommon, but in certain cases an attacker could alter critical or sensitive data.",
+    "datePublished": "Apr 26, 2023, 12:00:00 AM",
+    "dateUpdated": "Feb 3, 2025, 7:19:17 PM",
+    "baseScore": 7.5,
+    "baseScoreVersion": "3.1",
+    "baseScoreVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+    "references": "https://www.drupal.org/sa-core-2022-008\n",
+    "aliases": "GHSA-g36h-4jr6-qmm9\nCVE-2022-25273\n",
+    "assigner": "drupal",
+    "epss": 0.57,
+    "enisaIdProduct": [
+      {
+        "id": "5fa55bc2-61c0-3aa4-a12f-f041d740b9a1",
+        "product": {
+          "name": "core",
+          "vendor": {
+            "name": "OPNsense"
+          }
+        },
+        "product_version": "9.3 <9.3.12"
+      },
+      {
+        "id": "6d6dc135-1d27-3cb2-a6db-38d0075502fa",
+        "product": {
+          "name": "core",
+          "vendor": {
+            "name": "OPNsense"
+          }
+        },
+        "product_version": "9.2 <9.2.18"
+      },
+      {
+        "id": "b82deea7-49da-3e7e-816a-2d3eda843f55",
+        "product": {
+          "name": "core",
+          "vendor": {
+            "name": "OPNsense"
+          }
+        },
+        "product_version": "9.2 <9.2.18"
+      },
+      {
+        "id": "d086e338-73c8-3389-a1f2-3f0f39f6c570",
+        "product": {
+          "name": "core",
+          "vendor": {
+            "name": "OPNsense"
+          }
+        },
+        "product_version": "9.3 <9.3.12"
+      }
+    ],
+    "enisaIdVendor": [
+      {
+        "id": "ee80c45e-c816-335a-9e72-5113c830bc7a",
+        "vendor": {
+          "name": "Drupal"
+        }
+      }
+    ]
+  },
+  {
+    "id": "EUVD-2022-6645",
+    "enisaUuid": "411c08cc-bd39-31e3-addf-77918e1074b5",
+    "description": "In some situations, the Image module does not correctly check access to image files not stored in the standard public files directory when generating derivative images using the image styles system. Access to a non-public file is checked only if it is stored in the \"private\" file system. However, some contributed modules provide additional file systems, or schemes, which may lead to this vulnerability. This vulnerability is mitigated by the fact that it only applies when the site sets (Drupal 9) $config['image.settings']['allow_insecure_derivatives'] or (Drupal 7) $conf['image_allow_insecure_derivatives'] to TRUE. The recommended and default setting is FALSE, and Drupal core does not provide a way to change that in the admin UI. Some sites may require configuration changes following this security release. Review the release notes for your Drupal version if you have issues accessing files or image styles after updating.",
+    "datePublished": "Apr 26, 2023, 12:00:00 AM",
+    "dateUpdated": "Feb 3, 2025, 6:45:50 PM",
+    "baseScore": 7.5,
+    "baseScoreVersion": "3.1",
+    "baseScoreVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+    "references": "https://www.drupal.org/sa-core-2022-012\n",
+    "aliases": "CVE-2022-25275\nGHSA-xh3v-6f9j-wxw3\n",
+    "assigner": "drupal",
+    "epss": 0.67,
+    "enisaIdProduct": [
+      {
+        "id": "1b616d6d-9610-31e3-bef1-8d763f7507fa",
+        "product": {
+          "name": "core",
+          "vendor": {
+            "name": "OPNsense"
+          }
+        },
+        "product_version": "9.3 <9.3.19"
+      },
+      {
+        "id": "62e58fe2-3032-31a1-9607-1480b65728b8",
+        "product": {
+          "name": "core",
+          "vendor": {
+            "name": "OPNsense"
+          }
+        },
+        "product_version": "7 <7.91"
+      },
+      {
+        "id": "8a5e547b-3203-312a-9f1a-a657db49840b",
+        "product": {
+          "name": "core",
+          "vendor": {
+            "name": "OPNsense"
+          }
+        },
+        "product_version": "9.4 <9.4.3"
+      },
+      {
+        "id": "a7e2c140-da87-3d28-9e47-cf5e5e7201bd",
+        "product": {
+          "name": "core",
+          "vendor": {
+            "name": "OPNsense"
+          }
+        },
+        "product_version": "7 <7.91"
+      },
+      {
+        "id": "cf2ef1b6-7380-33c3-a873-5b6a06619e66",
+        "product": {
+          "name": "core",
+          "vendor": {
+            "name": "OPNsense"
+          }
+        },
+        "product_version": "9.3 <9.3.19"
+      },
+      {
+        "id": "de9a9f90-9407-3552-8ca1-7e3ba6787e4e",
+        "product": {
+          "name": "core",
+          "vendor": {
+            "name": "OPNsense"
+          }
+        },
+        "product_version": "9.4 <9.4.3"
+      }
+    ],
+    "enisaIdVendor": [
+      {
+        "id": "f14f8efa-7902-3940-81a2-b0015fa0ca48",
+        "vendor": {
+          "name": "Drupal"
+        }
+      }
+    ]
+  },
+  {
+    "id": "EUVD-2022-6493",
+    "enisaUuid": "9418f889-d4b0-3db3-b13a-a37b3539ea4f",
+    "description": "Drupal core sanitizes filenames with dangerous extensions upon upload (reference: SA-CORE-2020-012) and strips leading and trailing dots from filenames to prevent uploading server configuration files (reference: SA-CORE-2019-010). However, the protections for these two vulnerabilities previously did not work correctly together. As a result, if the site were configured to allow the upload of files with an htaccess extension, these files' filenames would not be properly sanitized. This could allow bypassing the protections provided by Drupal core's default .htaccess files and possible remote code execution on Apache web servers. This issue is mitigated by the fact that it requires a field administrator to explicitly configure a file field to allow htaccess as an extension (a restricted permission), or a contributed module or custom code that overrides allowed file uploads.",
+    "datePublished": "Apr 26, 2023, 12:00:00 AM",
+    "dateUpdated": "Feb 3, 2025, 6:41:34 PM",
+    "baseScore": 7.2,
+    "baseScoreVersion": "3.1",
+    "baseScoreVector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+    "references": "https://www.drupal.org/sa-core-2022-014\n",
+    "aliases": "GHSA-6955-67hm-vjjq\nCVE-2022-25277\n",
+    "assigner": "drupal",
+    "epss": 1.42,
+    "enisaIdProduct": [
+      {
+        "id": "0fc1487a-7fac-3dd4-80c3-5f81118d3f13",
+        "product": {
+          "name": "core",
+          "vendor": {
+            "name": "OPNsense"
+          }
+        },
+        "product_version": "9.3 <9.3.19"
+      },
+      {
+        "id": "1a89a2a9-3d09-3692-b482-032535c18c1b",
+        "product": {
+          "name": "core",
+          "vendor": {
+            "name": "OPNsense"
+          }
+        },
+        "product_version": "9.4 <9.4.3"
+      },
+      {
+        "id": "3c031dce-6177-3ff7-a85f-5e0dec8986a6",
+        "product": {
+          "name": "core",
+          "vendor": {
+            "name": "OPNsense"
+          }
+        },
+        "product_version": "9.3 <9.3.19"
+      },
+      {
+        "id": "5c527bd5-7d52-3d60-8b7e-3cd0ad1eef90",
+        "product": {
+          "name": "core",
+          "vendor": {
+            "name": "OPNsense"
+          }
+        },
+        "product_version": "9.4 <9.4.3"
+      }
+    ],
+    "enisaIdVendor": [
+      {
+        "id": "2bcd9653-c77c-3709-8826-67998505b341",
+        "vendor": {
+          "name": "Drupal"
+        }
+      }
+    ]
+  },
+  {
+    "id": "EUVD-2023-1267",
+    "enisaUuid": "92aba18b-9e57-3903-bc87-e0ef55dbabe1",
+    "description": "Under certain circumstances, the Drupal core form API evaluates form element access incorrectly. This may lead to a user being able to alter data they should not have access to. No forms provided by Drupal core are known to be vulnerable. However, forms added through contributed or custom modules or themes may be affected.",
+    "datePublished": "Apr 26, 2023, 12:00:00 AM",
+    "dateUpdated": "Feb 3, 2025, 6:40:32 PM",
+    "baseScore": 6.5,
+    "baseScoreVersion": "3.1",
+    "baseScoreVector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N",
+    "references": "https://www.drupal.org/sa-core-2022-013\n",
+    "aliases": "CVE-2022-25278\nGHSA-cfh2-7f6h-3m85\n",
+    "assigner": "drupal",
+    "epss": 0.59,
+    "enisaIdProduct": [
+      {
+        "id": "0d67d74c-5bb4-30a1-9e9e-d0b0d709fd6b",
+        "product": {
+          "name": "core",
+          "vendor": {
+            "name": "OPNsense"
+          }
+        },
+        "product_version": "9.3 <9.3.19"
+      },
+      {
+        "id": "71efc0a8-b5ff-3287-bf6b-b70cec751153",
+        "product": {
+          "name": "core",
+          "vendor": {
+            "name": "OPNsense"
+          }
+        },
+        "product_version": "9.3 <9.3.19"
+      },
+      {
+        "id": "a7cbee89-da92-3f46-8322-aa01c6aaca5c",
+        "product": {
+          "name": "core",
+          "vendor": {
+            "name": "OPNsense"
+          }
+        },
+        "product_version": "9.4 <9.4.3"
+      },
+      {
+        "id": "cee57727-5169-3bc8-a9d9-94a571f4bd25",
+        "product": {
+          "name": "core",
+          "vendor": {
+            "name": "OPNsense"
+          }
+        },
+        "product_version": "9.4 <9.4.3"
+      }
+    ],
+    "enisaIdVendor": [
+      {
+        "id": "2e9785e9-4f8e-38cd-9990-a38b1ac28c54",
+        "vendor": {
+          "name": "Drupal"
+        }
+      }
+    ]
+  },
+  {
+    "id": "EUVD-2024-3473",
+    "enisaUuid": "aa349d1d-031b-35a4-a60c-9cd2c31013d8",
+    "description": "Deserialization of Untrusted Data vulnerability in Drupal Core allows Object Injection.This issue affects Drupal Core: from 7.0 before 7.102, from 8.0.0 before 10.2.11, from 10.3.0 before 10.3.9.\n\nDrupal core contains a chain of methods that is exploitable when an insecure deserialization vulnerability exists on the site. This so-called gadget chain presents no direct threat but is a vector that can be used to achieve remote code execution if the application deserializes untrusted data due to another vulnerability.",
+    "datePublished": "Dec 9, 2024, 11:26:30 PM",
+    "dateUpdated": "Dec 16, 2024, 5:11:20 PM",
+    "baseScore": 9.8,
+    "baseScoreVersion": "3.1",
+    "baseScoreVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "references": "https://www.drupal.org/sa-core-2024-008\n",
+    "aliases": "GHSA-gvf2-2f4g-jqf4\nCVE-2024-55638\n",
+    "assigner": "drupal",
+    "epss": 0.96,
+    "enisaIdProduct": [
+      {
+        "id": "12a2f868-d37e-3ac0-b7cd-9e1ef5ad27f7",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "8.0.0 <10.2.11"
+      },
+      {
+        "id": "170e163b-883a-3537-af0a-395673099b50",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "7.0 <7.102"
+      },
+      {
+        "id": "20a8a45c-8887-3e90-9242-5cc2dff2ed32",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "7.0 <7.102"
+      },
+      {
+        "id": "815ef9f2-cb53-396c-857a-86951f7b6d93",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "10.3.0 <10.3.9"
+      },
+      {
+        "id": "8bc44562-ca7c-369a-b714-70084f676222",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "8.0.0 <10.2.11"
+      },
+      {
+        "id": "aa6da4c3-3b08-3fa3-8161-6784ed9edd03",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "10.3.0 <10.3.9"
+      }
+    ],
+    "enisaIdVendor": [
+      {
+        "id": "8892d994-df22-3aa4-8a13-f9305921c143",
+        "vendor": {
+          "name": "Drupal"
+        }
+      }
+    ]
+  },
+  {
+    "id": "EUVD-2024-3516",
+    "enisaUuid": "7a7853c1-30a1-37ae-964b-4b5915c16a20",
+    "description": "Deserialization of Untrusted Data vulnerability in Drupal Core allows Object Injection.This issue affects Drupal Core: from 8.0.0 before 10.2.11, from 10.3.0 before 10.3.9, from 11.0.0 before 11.0.8.\n\nDrupal core contains a chain of methods that is exploitable when an insecure deserialization vulnerability exists on the site. This so-called gadget chain presents no direct threat but is a vector that can be used to achieve remote code execution if the application deserializes untrusted data due to another vulnerability.",
+    "datePublished": "Dec 9, 2024, 11:25:32 PM",
+    "dateUpdated": "Dec 16, 2024, 5:10:40 PM",
+    "baseScore": 9.8,
+    "baseScoreVersion": "3.1",
+    "baseScoreVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "references": "https://www.drupal.org/sa-core-2024-007\n",
+    "aliases": "CVE-2024-55637\nGHSA-w6rx-9g2x-mg5g\n",
+    "assigner": "drupal",
+    "epss": 0.8,
+    "enisaIdProduct": [
+      {
+        "id": "0023a529-8ed5-3f65-971c-828c94c2e253",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "11.0.0 <11.0.8"
+      },
+      {
+        "id": "64781657-aab7-3196-a5bb-1e9dd9260118",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "8.0.0 <10.2.11"
+      },
+      {
+        "id": "675954d8-43d2-37a6-98b5-74bf9b5d094d",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "11.0.0 <11.0.8"
+      },
+      {
+        "id": "ca81d714-b862-3c75-a78f-3e15cb1ab1ab",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "8.0.0 <10.2.11"
+      },
+      {
+        "id": "e27d9391-018a-370e-8046-77933266c40c",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "10.3.0 <10.3.9"
+      },
+      {
+        "id": "e852f3bc-0a9c-3c10-975a-b185d6ec543c",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "10.3.0 <10.3.9"
+      }
+    ],
+    "enisaIdVendor": [
+      {
+        "id": "0a011a08-522c-37f7-8e72-eda232948c18",
+        "vendor": {
+          "name": "Drupal"
+        }
+      }
+    ]
+  },
+  {
+    "id": "EUVD-2024-3453",
+    "enisaUuid": "0756cae1-92a1-3926-b371-b6b9739c2ac6",
+    "description": "Deserialization of Untrusted Data vulnerability in Drupal Core allows Object Injection.This issue affects Drupal Core: from 8.0.0 before 10.2.11, from 10.3.0 before 10.3.9, from 11.0.0 before 11.0.8.\n\nDrupal core contains a chain of methods that is exploitable when an insecure deserialization vulnerability exists on the site. This so called gadget chain presents no direct threat, but is a vector that can be used to achieve remote code execution if the application deserializes untrusted data due to another vulnerability.",
+    "datePublished": "Dec 9, 2024, 11:24:27 PM",
+    "dateUpdated": "Dec 16, 2024, 5:09:36 PM",
+    "baseScore": 9.8,
+    "baseScoreVersion": "3.1",
+    "baseScoreVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "references": "https://www.drupal.org/sa-core-2024-006\n",
+    "aliases": "CVE-2024-55636\nGHSA-938f-5r4f-h65v\n",
+    "assigner": "drupal",
+    "epss": 0.9,
+    "enisaIdProduct": [
+      {
+        "id": "2305a504-6cff-3033-b726-7a05dcc607b6",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "8.0.0 <10.2.11"
+      },
+      {
+        "id": "2bde20bc-62fa-3e86-9196-d4f932e88c20",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "10.3.0 <10.3.9"
+      },
+      {
+        "id": "41ccf571-1134-35b5-99fd-3d1e1aae3c1c",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "10.3.0 <10.3.9"
+      },
+      {
+        "id": "6f700c80-1abe-372f-ab1d-df1932b78309",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "11.0.0 <11.0.8"
+      },
+      {
+        "id": "c8e5e721-9b5e-3f7b-8b96-263e55d3e03a",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "8.0.0 <10.2.11"
+      },
+      {
+        "id": "fa160761-660e-3764-9b0d-cef2379b4f55",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "11.0.0 <11.0.8"
+      }
+    ],
+    "enisaIdVendor": [
+      {
+        "id": "ffe52183-75c2-3f10-8318-e41ef68273e1",
+        "vendor": {
+          "name": "Drupal"
+        }
+      }
+    ]
+  },
+  {
+    "id": "EUVD-2024-3443",
+    "enisaUuid": "75c05b22-3c3b-36ea-b9e4-64bd2c66ac1c",
+    "description": "A vulnerability in Drupal Core allows Privilege Escalation.This issue affects Drupal Core: from 8.0.0 before 10.2.11, from 10.3.0 before 10.3.9, from 11.0.0 before 11.0.8.",
+    "datePublished": "Dec 9, 2024, 11:21:15 PM",
+    "dateUpdated": "Dec 11, 2024, 4:39:12 PM",
+    "baseScore": 8.1,
+    "baseScoreVersion": "3.1",
+    "baseScoreVector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N",
+    "references": "https://www.drupal.org/sa-core-2024-004\n",
+    "aliases": "GHSA-7cwc-fjqm-8vh8\nCVE-2024-55634\n",
+    "assigner": "drupal",
+    "epss": 0.41,
+    "enisaIdProduct": [
+      {
+        "id": "4f1035b2-25d9-34c1-82eb-fdebb65013fa",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "8.0.0 <10.2.11"
+      },
+      {
+        "id": "5bc1a7b2-189c-3b2f-b355-d4891acf7fa7",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "10.3.0 <10.3.9"
+      },
+      {
+        "id": "88486ee7-cb7f-31a3-8cb0-33cffc5f27aa",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "11.0.0 <11.0.8"
+      },
+      {
+        "id": "890f14ef-5b0a-3319-9f55-0c02b2e9495f",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "8.0.0 <10.2.11"
+      },
+      {
+        "id": "8f171e32-8760-3669-9115-1ce36126b6d8",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "10.3.0 <10.3.9"
+      },
+      {
+        "id": "c56796e6-657a-3803-a1a9-32d5354c7338",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "11.0.0 <11.0.8"
+      }
+    ],
+    "enisaIdVendor": [
+      {
+        "id": "a14f9e89-ed92-3348-a0aa-dd7ae72852c1",
+        "vendor": {
+          "name": "Drupal"
+        }
+      }
+    ]
+  },
+  {
+    "id": "EUVD-2024-3449",
+    "enisaUuid": "d2e37fd6-608a-3d48-a46a-63a77e0da3f6",
+    "description": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Drupal Core allows Cross-Site Scripting (XSS).This issue affects Drupal Core: from 8.8.0 before 10.2.11, from 10.3.0 before 10.3.9, from 11.0.0 before 11.0.8.",
+    "datePublished": "Dec 9, 2024, 11:20:31 PM",
+    "dateUpdated": "Dec 11, 2024, 4:37:08 PM",
+    "baseScore": 5.4,
+    "baseScoreVersion": "3.1",
+    "baseScoreVector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+    "references": "https://www.drupal.org/sa-core-2024-003\n",
+    "aliases": "CVE-2024-12393\nGHSA-8mvq-8h2v-j9vf\n",
+    "assigner": "drupal",
+    "epss": 0.33,
+    "enisaIdProduct": [
+      {
+        "id": "4ce078c9-f3a3-3555-b799-be61f27362f3",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "11.0.0 <11.0.8"
+      },
+      {
+        "id": "4eec295d-11c1-3647-9606-a79afb4661f3",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "8.8.0 <10.2.11"
+      },
+      {
+        "id": "6d692a07-3c24-3ede-97ba-099da4775df9",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "10.3.0 <10.3.9"
+      },
+      {
+        "id": "a3750ce5-4877-356b-b00e-63d25e97dc5b",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "11.0.0 <11.0.8"
+      },
+      {
+        "id": "b905e065-fe23-355d-8fa2-fd48d1ef7fd4",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "8.8.0 <10.2.11"
+      },
+      {
+        "id": "d0ddd0a2-bed8-3db8-bb69-3be3ac028a37",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "10.3.0 <10.3.9"
+      }
+    ],
+    "enisaIdVendor": [
+      {
+        "id": "e7825dc0-f20c-346e-9c0b-8a908e1ee0df",
+        "vendor": {
+          "name": "Drupal"
+        }
+      }
+    ]
+  },
+  {
+    "id": "EUVD-2024-52831",
+    "enisaUuid": "c1e213ab-6e27-3c55-90bf-dea041a916e5",
+    "description": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Drupal Core allows Cross-Site Scripting (XSS).This issue affects Drupal Core: from 7.0 before 7.102.",
+    "datePublished": "Dec 9, 2024, 11:23:38 PM",
+    "dateUpdated": "Dec 10, 2024, 9:18:04 PM",
+    "baseScore": 6.1,
+    "baseScoreVersion": "3.1",
+    "baseScoreVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+    "references": "https://www.drupal.org/sa-core-2024-005\n",
+    "aliases": "CVE-2024-55635\nGHSA-3h3p-vm3f-v359\n",
+    "assigner": "drupal",
+    "epss": 0.31,
+    "enisaIdProduct": [
+      {
+        "id": "01a9960a-33bb-32ce-b3c5-06377cdcd88d",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "7.0 <7.102"
+      },
+      {
+        "id": "f26d6ba6-1152-3839-b4b2-76dcf3583941",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "7.0 <7.102"
+      }
+    ],
+    "enisaIdVendor": [
+      {
+        "id": "48bfa6cb-d422-3162-9631-0d6902c1a674",
+        "vendor": {
+          "name": "Drupal"
+        }
+      }
+    ]
+  },
+  {
+    "id": "EUVD-2024-3524",
+    "enisaUuid": "1a04cfa4-5e29-3d8f-807f-22c2cdc26324",
+    "description": "A vulnerability in Drupal Core allows Excessive Allocation.This issue affects Drupal Core: from 10.2.0 before 10.2.2, from 10.1.0 before 10.1.8.",
+    "datePublished": "Dec 5, 2024, 2:39:37 PM",
+    "dateUpdated": "Dec 5, 2024, 3:45:37 PM",
+    "baseScore": 7.5,
+    "baseScoreVersion": "3.1",
+    "baseScoreVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+    "references": "https://www.drupal.org/sa-core-2024-001\n",
+    "aliases": "CVE-2024-11941\nGHSA-xq54-x54m-vcpx\n",
+    "assigner": "drupal",
+    "epss": 0.46,
+    "enisaIdProduct": [
+      {
+        "id": "6d9cd6cf-b769-3028-80c2-27723aa13c5f",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "10.2.0 <10.2.2"
+      },
+      {
+        "id": "8f94f4ff-f006-36d2-b9e4-5ead229c7952",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "10.1.0 <10.1.8"
+      },
+      {
+        "id": "9f7769d4-81cf-341e-9276-8b0e9926da5d",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "10.1.0 <10.1.8"
+      },
+      {
+        "id": "dc4fb56c-43c1-3842-8d78-ee2033ad8107",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "10.2.0 <10.2.2"
+      }
+    ],
+    "enisaIdVendor": [
+      {
+        "id": "e2f3c6ef-1ea5-35d0-922d-8ece04d5c172",
+        "vendor": {
+          "name": "Drupal"
+        }
+      }
+    ]
+  },
+  {
+    "id": "EUVD-2024-3428",
+    "enisaUuid": "f9953f9f-62fa-32e3-b716-c6dad275900c",
+    "description": "A vulnerability in Drupal Core allows File Manipulation.This issue affects Drupal Core: from 10.0.0 before 10.2.10.",
+    "datePublished": "Dec 5, 2024, 2:42:07 PM",
+    "dateUpdated": "Dec 5, 2024, 3:41:56 PM",
+    "baseScore": 5.9,
+    "baseScoreVersion": "3.1",
+    "baseScoreVector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N",
+    "references": "https://www.drupal.org/sa-core-2024-002\n",
+    "aliases": "CVE-2024-11942\nGHSA-52jr-x6h6-xj6g\n",
+    "assigner": "drupal",
+    "epss": 0.38,
+    "enisaIdProduct": [
+      {
+        "id": "84118db7-7376-308a-947f-942b9a3c6a4d",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "10.0.0 <10.2.10"
+      },
+      {
+        "id": "ae745933-cb47-3674-a511-a887f1abb92c",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "10.0.0 <10.2.10"
+      }
+    ],
+    "enisaIdVendor": [
+      {
+        "id": "206b08a6-34dd-3111-9ae9-97a60b131714",
+        "vendor": {
+          "name": "Drupal"
+        }
+      }
+    ]
+  },
+  {
+    "id": "EUVD-2023-2586",
+    "enisaUuid": "19e0ae9b-f4dc-3c96-b4d7-e7b78873b074",
+    "description": "In certain scenarios, Drupal's JSON:API module will output error backtraces. With some configurations, this may cause sensitive information to be cached and made available to anonymous users, leading to privilege escalation.\n\nThis vulnerability only affects sites with the JSON:API module enabled, and can be mitigated by uninstalling JSON:API.\n\nThe core REST and contributed GraphQL modules are not affected.\n\n\n\n",
+    "datePublished": "Sep 28, 2023, 6:17:43 PM",
+    "dateUpdated": "Sep 23, 2024, 6:25:29 PM",
+    "baseScore": 7.5,
+    "baseScoreVersion": "3.1",
+    "baseScoreVector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "references": "https://www.drupal.org/sa-core-2023-006\n",
+    "aliases": "GHSA-rjqg-3h9m-fx5x\nCVE-2023-5256\n",
+    "assigner": "drupal",
+    "epss": 0.69,
+    "enisaIdProduct": [
+      {
+        "id": "2bc658db-ca33-3a59-bc23-1c69908adb30",
+        "product": {
+          "name": "core",
+          "vendor": {
+            "name": "OPNsense"
+          }
+        },
+        "product_version": "9.5 ≤9.5.11"
+      },
+      {
+        "id": "85920109-986d-3dc7-ae81-7d0f7df5599e",
+        "product": {
+          "name": "core",
+          "vendor": {
+            "name": "OPNsense"
+          }
+        },
+        "product_version": "9.5 ≤9.5.11"
+      },
+      {
+        "id": "96e7b416-d9ed-365f-ae96-ba265728a96e",
+        "product": {
+          "name": "core",
+          "vendor": {
+            "name": "OPNsense"
+          }
+        },
+        "product_version": "10.1 ≤10.1.4"
+      },
+      {
+        "id": "a0ba583a-030b-37c1-866b-0dcaa7dcd2bf",
+        "product": {
+          "name": "core",
+          "vendor": {
+            "name": "OPNsense"
+          }
+        },
+        "product_version": "10.0 ≤10.0.11"
+      },
+      {
+        "id": "a2408999-cb99-3ad0-8493-f721a0d21902",
+        "product": {
+          "name": "core",
+          "vendor": {
+            "name": "OPNsense"
+          }
+        },
+        "product_version": "10.0 ≤10.0.11"
+      },
+      {
+        "id": "d191b551-90e3-368b-a944-6c171d203d37",
+        "product": {
+          "name": "core",
+          "vendor": {
+            "name": "OPNsense"
+          }
+        },
+        "product_version": "10.1 ≤10.1.4"
+      }
+    ],
+    "enisaIdVendor": [
+      {
+        "id": "1889eeb1-71a5-3cb2-a203-244d505b7182",
+        "vendor": {
+          "name": "Drupal"
+        }
+      }
+    ]
+  },
+  {
+    "id": "EUVD-2014-8568",
+    "enisaUuid": "a5ca10b8-120c-3d18-b75b-5a973e9e302a",
+    "description": "The Open Atrium Core module for Drupal before 7.x-2.22 allows remote attackers to bypass access restrictions and read file attachments that have been removed from a node by leveraging a previous revision of the node.",
+    "datePublished": "Nov 12, 2014, 4:00:00 PM",
+    "dateUpdated": "Sep 17, 2024, 2:32:38 AM",
+    "baseScore": null,
+    "references": "https://www.drupal.org/node/2357295\nhttps://www.drupal.org/node/2357279\n",
+    "aliases": "CVE-2014-8736\nGHSA-hm6j-jqfp-qmgr\n",
+    "assigner": "mitre",
+    "epss": 1.21,
+    "enisaIdProduct": [
+      {
+        "id": "3b43ed7f-7886-3229-996e-58b3b115d2eb",
+        "product": {
+          "name": "n/a",
+          "vendor": {
+            "name": "n/a"
+          }
+        },
+        "product_version": "n/a"
+      }
+    ],
+    "enisaIdVendor": [
+      {
+        "id": "9f917d95-5c2c-3fc4-92b7-460d65c48806",
+        "vendor": {
+          "name": "n/a"
+        }
+      }
+    ]
+  },
+  {
+    "id": "EUVD-2022-5594",
+    "enisaUuid": "3011c8d3-4ee8-3d75-86b3-c40b7b7247d7",
+    "description": "Drupal core 7.x versions before 7.57 has an external link injection vulnerability when the language switcher block is used. A similar vulnerability exists in various custom and contributed modules. This vulnerability could allow an attacker to trick users into unwillingly navigating to an external site.",
+    "datePublished": "Mar 1, 2018, 10:00:00 PM",
+    "dateUpdated": "Sep 17, 2024, 2:01:26 AM",
+    "baseScore": null,
+    "references": "https://www.debian.org/security/2018/dsa-4123\nhttps://lists.debian.org/debian-lts-announce/2018/02/msg00030.html\nhttps://www.drupal.org/sa-core-2018-001\n",
+    "aliases": "GHSA-wm86-w3cf-h6vm\nCVE-2017-6932\n",
+    "assigner": "drupal",
+    "epss": 1.17,
+    "enisaIdProduct": [
+      {
+        "id": "cfa94f29-772d-34be-83c2-707f9a75cb39",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "7.x versions before 7.57"
+      }
+    ],
+    "enisaIdVendor": [
+      {
+        "id": "f4239ae8-686b-3f27-a850-8c324ef58578",
+        "vendor": {
+          "name": "Drupal.org"
+        }
+      }
+    ]
+  },
+  {
+    "id": "EUVD-2022-2018",
+    "enisaUuid": "c7445035-957c-3b26-acd0-03c184b44e2d",
+    "description": "In Drupal versions 8.4.x versions before 8.4.5 users with permission to post comments are able to view content and comments they do not have access to, and are also able to add comments to this content. This vulnerability is mitigated by the fact that the comment system must be enabled and the attacker must have permission to post comments.",
+    "datePublished": "Mar 1, 2018, 10:00:00 PM",
+    "dateUpdated": "Sep 17, 2024, 1:06:48 AM",
+    "baseScore": null,
+    "references": "https://www.drupal.org/sa-core-2018-001\n",
+    "aliases": "CVE-2017-6926\nGHSA-2p28-5mvp-2j2r\n",
+    "assigner": "drupal",
+    "epss": 1.21,
+    "enisaIdProduct": [
+      {
+        "id": "12872fda-a449-3120-9ed2-a37347047e0a",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "8.4.x versions before 8.4.5"
+      }
+    ],
+    "enisaIdVendor": [
+      {
+        "id": "082a0939-f400-3aec-80b3-246a6c7ad2e0",
+        "vendor": {
+          "name": "Drupal.org"
+        }
+      }
+    ]
+  },
+  {
+    "id": "EUVD-2022-2530",
+    "enisaUuid": "c6f4e560-afcd-3180-b0b5-31ab08af281e",
+    "description": "Drupal 8.4.x versions before 8.4.5 and Drupal 7.x versions before 7.57 has a Drupal.checkPlain() JavaScript function which is used to escape potentially dangerous text before outputting it to HTML (as JavaScript output does not typically go through Twig autoescaping). This function does not correctly handle all methods of injecting malicious HTML, leading to a cross-site scripting vulnerability under certain circumstances. The PHP functions which Drupal provides for HTML escaping are not affected.",
+    "datePublished": "Mar 1, 2018, 10:00:00 PM",
+    "dateUpdated": "Sep 17, 2024, 12:51:53 AM",
+    "baseScore": null,
+    "references": "https://www.debian.org/security/2018/dsa-4123\nhttps://lists.debian.org/debian-lts-announce/2018/02/msg00030.html\nhttp://www.securityfocus.com/bid/103138\nhttps://www.drupal.org/sa-core-2018-001\n",
+    "aliases": "GHSA-585j-5449-mf5m\nCVE-2017-6927\n",
+    "assigner": "drupal",
+    "epss": 1.61,
+    "enisaIdProduct": [
+      {
+        "id": "141f0165-d515-329d-8bce-cd3ec8d32af9",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "8.4.x versions before 8.4.5 and Drupal 7.x versions before 7.57"
+      }
+    ],
+    "enisaIdVendor": [
+      {
+        "id": "9fb58ff5-f268-37e3-a347-e39028335336",
+        "vendor": {
+          "name": "Drupal.org"
+        }
+      }
+    ]
+  },
+  {
+    "id": "EUVD-2022-2662",
+    "enisaUuid": "1ed8afb0-ef72-366b-92bb-61f64c562d2e",
+    "description": "A jQuery cross site scripting vulnerability is present when making Ajax requests to untrusted domains. This vulnerability is mitigated by the fact that it requires contributed or custom modules in order to exploit. For Drupal 8, this vulnerability was already fixed in Drupal 8.4.0 in the Drupal core upgrade to jQuery 3. For Drupal 7, it is fixed in the current release (Drupal 7.57) for jQuery 1.4.4 (the version that ships with Drupal 7 core) as well as for other newer versions of jQuery that might be used on the site, for example using the jQuery Update module.",
+    "datePublished": "Mar 1, 2018, 10:00:00 PM",
+    "dateUpdated": "Sep 16, 2024, 11:36:58 PM",
+    "baseScore": null,
+    "references": "https://www.debian.org/security/2018/dsa-4123\nhttps://lists.debian.org/debian-lts-announce/2018/02/msg00030.html\nhttps://www.drupal.org/sa-core-2018-001\n",
+    "aliases": "GHSA-5vpr-v24w-mmjj\nCVE-2017-6929\n",
+    "assigner": "drupal",
+    "epss": 1.22,
+    "enisaIdProduct": [
+      {
+        "id": "5a466bca-b575-331c-8267-30264e5a1a22",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "7.x versions before 7.57"
+      }
+    ],
+    "enisaIdVendor": [
+      {
+        "id": "0c3c2bdb-420e-37bf-9538-faee7450fc2c",
+        "vendor": {
+          "name": "Drupal.org"
+        }
+      }
+    ]
+  },
+  {
+    "id": "EUVD-2022-2727",
+    "enisaUuid": "de6bc427-f928-3d8d-a88c-c156c355de80",
+    "description": "Drupal core 7.x versions before 7.57 when using Drupal's private file system, Drupal will check to make sure a user has access to a file before allowing the user to view or download it. This check fails under certain conditions in which one module is trying to grant access to the file and another is trying to deny it, leading to an access bypass vulnerability. This vulnerability is mitigated by the fact that it only occurs for unusual site configurations.",
+    "datePublished": "Mar 1, 2018, 10:00:00 PM",
+    "dateUpdated": "Sep 16, 2024, 11:11:04 PM",
+    "baseScore": null,
+    "references": "https://www.debian.org/security/2018/dsa-4123\nhttps://lists.debian.org/debian-lts-announce/2018/02/msg00030.html\nhttps://www.drupal.org/sa-core-2018-001\n",
+    "aliases": "CVE-2017-6928\nGHSA-66mv-q8r2-hj8w\n",
+    "assigner": "drupal",
+    "epss": 1.02,
+    "enisaIdProduct": [
+      {
+        "id": "05971812-a99e-3a19-823a-ba16415ba1e5",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "Drupal 7.x versions before 7.57"
+      }
+    ],
+    "enisaIdVendor": [
+      {
+        "id": "f0ee5ec0-1863-3a8b-89f2-33649595b8c2",
+        "vendor": {
+          "name": "Drupal.org"
+        }
+      }
+    ]
+  },
+  {
+    "id": "EUVD-2022-0526",
+    "enisaUuid": "930e590b-db16-30a4-8537-c288ca326ec0",
+    "description": "In Drupal Core versions 7.x prior to 7.62, 8.6.x prior to 8.6.6 and 8.5.x prior to 8.5.9; A remote code execution vulnerability exists in PHP's built-in phar stream wrapper when performing file operations on an untrusted phar:// URI. Some Drupal code (core, contrib, and custom) may be performing file operations on insufficiently validated user input, thereby being exposed to this vulnerability. This vulnerability is mitigated by the fact that such code paths typically require access to an administrative permission or an atypical configuration.",
+    "datePublished": "Jan 22, 2019, 3:00:00 PM",
+    "dateUpdated": "Sep 16, 2024, 8:06:38 PM",
+    "baseScore": null,
+    "references": "https://www.debian.org/security/2019/dsa-4370\nhttps://www.drupal.org/sa-core-2019-002\nhttps://lists.debian.org/debian-lts-announce/2019/02/msg00004.html\n",
+    "aliases": "CVE-2019-6339\nGHSA-8cw5-rv98-5c46\n",
+    "assigner": "drupal",
+    "epss": 33.23,
+    "enisaIdProduct": [
+      {
+        "id": "0d5b9b64-3c2d-3cb8-a9df-cb45fedb070b",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "7.x <7.62"
+      },
+      {
+        "id": "1e094d75-b460-30e1-af4e-15ce6bb677c5",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "8.6.x <8.6.6."
+      },
+      {
+        "id": "4dde9e46-cc6c-3bc5-a364-d37165058a40",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "8.5.x <8.5.9"
+      }
+    ],
+    "enisaIdVendor": [
+      {
+        "id": "844b796f-e3eb-3bb9-b117-01d161e0fd16",
+        "vendor": {
+          "name": "Drupal"
+        }
+      }
+    ]
+  },
+  {
+    "id": "EUVD-2022-4050",
+    "enisaUuid": "2e9451d8-763d-3d71-a4a8-e49533b10979",
+    "description": "In Drupal 8 prior to 8.3.4; The file REST resource does not properly validate some fields when manipulating files. A site is only affected by this if the site has the RESTful Web Services (rest) module enabled, the file REST resource is enabled and allows PATCH requests, and an attacker can get or register a user account on the site with permissions to upload files and to modify the file resource.",
+    "datePublished": "Jan 15, 2019, 10:00:00 PM",
+    "dateUpdated": "Sep 16, 2024, 7:47:08 PM",
+    "baseScore": null,
+    "references": "http://www.securityfocus.com/bid/99222\nhttps://www.drupal.org/forum/newsletters/security-advisories-for-drupal-core/2017-06-21/drupal-core-multiple\nhttp://www.securitytracker.com/id/1038781\n",
+    "aliases": "GHSA-h377-287m-w2r9\nCVE-2017-6921\n",
+    "assigner": "drupal",
+    "epss": 1.83,
+    "enisaIdProduct": [
+      {
+        "id": "3d94ea39-b592-3180-a444-01cd35d085d0",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "Drupal 8 <8.3.4"
+      }
+    ],
+    "enisaIdVendor": [
+      {
+        "id": "a6f0482b-9e4e-36c5-88d7-5595027b0b12",
+        "vendor": {
+          "name": "Drupal"
+        }
+      }
+    ]
+  },
+  {
+    "id": "EUVD-2022-2984",
+    "enisaUuid": "bfe5cd15-28a8-3561-98fb-d7ee2f115422",
+    "description": "In Drupal versions 8.4.x versions before 8.4.5 the Settings Tray module has a vulnerability that allows users to update certain data that they do not have the permissions for. If you have implemented a Settings Tray form in contrib or a custom module, the correct access checks should be added. This release fixes the only two implementations in core, but does not harden against other such bypasses. This vulnerability can be mitigated by disabling the Settings Tray module.",
+    "datePublished": "Mar 1, 2018, 10:00:00 PM",
+    "dateUpdated": "Sep 16, 2024, 7:15:21 PM",
+    "baseScore": null,
+    "references": "https://www.drupal.org/sa-core-2018-001\n",
+    "aliases": "CVE-2017-6931\nGHSA-7ffh-cjvg-fpr4\n",
+    "assigner": "drupal",
+    "epss": 1.07,
+    "enisaIdProduct": [
+      {
+        "id": "70a9152f-099e-37d7-bc8e-ab3842835608",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "8.4.x versions before 8.4.5"
+      }
+    ],
+    "enisaIdVendor": [
+      {
+        "id": "dff1b127-1ffb-3783-82df-702963eb1354",
+        "vendor": {
+          "name": "Drupal.org"
+        }
+      }
+    ]
+  },
+  {
+    "id": "EUVD-2022-2535",
+    "enisaUuid": "e84079eb-ace3-3d96-81f3-3ac8d01cbb78",
+    "description": "In Drupal core 8.x prior to 8.3.4 and Drupal core 7.x prior to 7.56; Private files that have been uploaded by an anonymous user but not permanently attached to content on the site should only be visible to the anonymous user that uploaded them, rather than all anonymous users. Drupal core did not previously provide this protection, allowing an access bypass vulnerability to occur. This issue is mitigated by the fact that in order to be affected, the site must allow anonymous users to upload files into a private file system.",
+    "datePublished": "Jan 22, 2019, 3:00:00 PM",
+    "dateUpdated": "Sep 16, 2024, 7:04:17 PM",
+    "baseScore": null,
+    "references": "https://www.debian.org/security/2017/dsa-3897\nhttp://www.securityfocus.com/bid/99219\nhttps://www.drupal.org/forum/newsletters/security-advisories-for-drupal-core/2017-06-21/drupal-core-multiple\nhttp://www.securitytracker.com/id/1038781\n",
+    "aliases": "GHSA-58f3-cx8p-h8jg\nCVE-2017-6922\n",
+    "assigner": "drupal",
+    "epss": 1.95,
+    "enisaIdProduct": [
+      {
+        "id": "8baa30e1-4033-38b4-a61b-8c1cda7e5c77",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "Drupal 8 <8.3.3"
+      },
+      {
+        "id": "c9d7db0e-46e4-3cd7-8f70-e29c6de804d5",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "Drupal 7 <7.55"
+      }
+    ],
+    "enisaIdVendor": [
+      {
+        "id": "5dadfac2-9c83-3348-bcca-35e0aeafe1ec",
+        "vendor": {
+          "name": "Drupal"
+        }
+      }
+    ]
+  },
+  {
+    "id": "EUVD-2019-0782",
+    "enisaUuid": "f85f8c48-467e-3430-98f9-0df8996efeb4",
+    "description": "In Drupal Core versions 7.x prior to 7.62, 8.6.x prior to 8.6.6 and 8.5.x prior to 8.5.9; Drupal core uses the third-party PEAR Archive_Tar library. This library has released a security update which impacts some Drupal configurations. Refer to CVE-2018-1000888 for details",
+    "datePublished": "Jan 22, 2019, 3:00:00 PM",
+    "dateUpdated": "Sep 16, 2024, 6:38:30 PM",
+    "baseScore": null,
+    "references": "https://www.drupal.org/sa-core-2019-001\nhttps://www.debian.org/security/2019/dsa-4370\nhttps://lists.debian.org/debian-lts-announce/2019/02/msg00032.html\nhttp://www.securityfocus.com/bid/106706\n",
+    "aliases": "GHSA-6rmq-x2hv-vxpp\nCVE-2019-6338\n",
+    "assigner": "drupal",
+    "epss": 2.13,
+    "enisaIdProduct": [
+      {
+        "id": "3912938a-6e75-3aad-a259-ec4ab474a387",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "8.5.x <8.5.9"
+      },
+      {
+        "id": "f22f54af-4d57-3dd0-89ab-5329325d907a",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "7.x <7.62"
+      },
+      {
+        "id": "f2a672cf-42cf-3f11-814f-9fa175614969",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "8.6.x <8.6.6."
+      }
+    ],
+    "enisaIdVendor": [
+      {
+        "id": "8e0cf50f-142f-3b0e-857a-58cb054e04f4",
+        "vendor": {
+          "name": "Drupal"
+        }
+      }
+    ]
+  },
+  {
+    "id": "EUVD-2022-3347",
+    "enisaUuid": "e17e3db9-61f4-3806-9fff-fb84e16295b1",
+    "description": "Drupal core 8 before versions 8.3.4 allows remote attackers to execute arbitrary code due to the PECL YAML parser not handling PHP objects safely during certain operations.",
+    "datePublished": "Aug 6, 2018, 3:00:00 PM",
+    "dateUpdated": "Sep 16, 2024, 6:33:33 PM",
+    "baseScore": null,
+    "references": "https://www.drupal.org/forum/newsletters/security-advisories-for-drupal-core/2017-06-21/drupal-core-multiple\nhttp://www.securityfocus.com/bid/99211\nhttp://www.securitytracker.com/id/1038781\n",
+    "aliases": "GHSA-9c24-g32g-35rj\nCVE-2017-6920\n",
+    "assigner": "drupal",
+    "epss": 20.48,
+    "enisaIdProduct": [
+      {
+        "id": "483ca0df-b83b-322b-bc33-4b19da022f43",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "8 prior to 8.3.4"
+      }
+    ],
+    "enisaIdVendor": [
+      {
+        "id": "026e339d-37d2-37ac-8060-cc3cc1c8b87b",
+        "vendor": {
+          "name": "Drupal.org"
+        }
+      }
+    ]
+  },
+  {
+    "id": "EUVD-2022-2087",
+    "enisaUuid": "d5e2e3bc-35e6-375e-880c-d5bb09ffd96f",
+    "description": "In Drupal versions 8.4.x versions before 8.4.5 when using node access controls with a multilingual site, Drupal marks the untranslated version of a node as the default fallback for access queries. This fallback is used for languages that do not yet have a translated version of the created node. This can result in an access bypass vulnerability. This issue is mitigated by the fact that it only applies to sites that a) use the Content Translation module; and b) use a node access module such as Domain Access which implement hook_node_access_records().",
+    "datePublished": "Mar 1, 2018, 10:00:00 PM",
+    "dateUpdated": "Sep 16, 2024, 5:48:09 PM",
+    "baseScore": null,
+    "references": "https://www.drupal.org/sa-core-2018-001\n",
+    "aliases": "GHSA-3327-jr93-7hq3\nCVE-2017-6930\n",
+    "assigner": "drupal",
+    "epss": 1.29,
+    "enisaIdProduct": [
+      {
+        "id": "20bc11fb-5e71-3eab-a7fb-ea2997829aa2",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "8.4.x versions before 8.4.5"
+      }
+    ],
+    "enisaIdVendor": [
+      {
+        "id": "7b6f059a-92ac-387e-9e23-511ee711673e",
+        "vendor": {
+          "name": "Drupal.org"
+        }
+      }
+    ]
+  },
+  {
+    "id": "EUVD-2019-0715",
+    "enisaUuid": "14267621-44d1-3258-987c-ef73256161be",
+    "description": "In Drupal 8.x prior to 8.3.7 When creating a view, you can optionally use Ajax to update the displayed data via filter parameters. The views subsystem/module did not restrict access to the Ajax endpoint to only views configured to use Ajax. This is mitigated if you have access restrictions on the view. It is best practice to always include some form of access restrictions on all views, even if you are using another module to display them.",
+    "datePublished": "Jan 22, 2019, 4:00:00 PM",
+    "dateUpdated": "Sep 16, 2024, 5:42:46 PM",
+    "baseScore": null,
+    "references": "http://www.securityfocus.com/bid/100368\nhttps://www.drupal.org/forum/newsletters/security-advisories-for-drupal-core/2017-08-16/drupal-core-multiple\nhttp://www.securitytracker.com/id/1039200\n",
+    "aliases": "GHSA-v3f6-f29f-rgvp\nCVE-2017-6923\n",
+    "assigner": "drupal",
+    "epss": 1.63,
+    "enisaIdProduct": [
+      {
+        "id": "c250f225-64a6-3e73-a509-bb5db7986bcf",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "8.x <8.3.7"
+      }
+    ],
+    "enisaIdVendor": [
+      {
+        "id": "4b77dd81-123c-3b41-9b8c-424eb6c03f1c",
+        "vendor": {
+          "name": "Drupal"
+        }
+      }
+    ]
+  },
+  {
+    "id": "EUVD-2022-4715",
+    "enisaUuid": "fc64a4a9-92e1-382f-8024-ce90f8c64bfd",
+    "description": "In Drupal 8 prior to 8.3.7; When using the REST API, users without the correct permission can post comments via REST that are approved even if the user does not have permission to post approved comments. This issue only affects sites that have the RESTful Web Services (rest) module enabled, the comment entity REST resource enabled, and where an attacker can access a user account on the site with permissions to post comments, or where anonymous users can post comments.",
+    "datePublished": "Jan 15, 2019, 8:00:00 PM",
+    "dateUpdated": "Sep 16, 2024, 4:57:56 PM",
+    "baseScore": null,
+    "references": "http://www.securityfocus.com/bid/100368\nhttps://www.drupal.org/forum/newsletters/security-advisories-for-drupal-core/2017-08-16/drupal-core-multiple\nhttp://www.securitytracker.com/id/1039200\n",
+    "aliases": "GHSA-p8g6-5mg7-9r5q\nCVE-2017-6924\n",
+    "assigner": "drupal",
+    "epss": 2.1,
+    "enisaIdProduct": [
+      {
+        "id": "c29ad64d-4d60-3102-a68b-ab4fba50a4b6",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "Drupal 8 <8.3.7"
+      }
+    ],
+    "enisaIdVendor": [
+      {
+        "id": "9b66fdd1-13ed-3a6d-ab1e-4c14018e65d7",
+        "vendor": {
+          "name": "Drupal"
+        }
+      }
+    ]
+  },
+  {
+    "id": "EUVD-2007-5571",
+    "enisaUuid": "a7303549-1ed3-3a1c-b809-d1c87b0f08bc",
+    "description": "The core Upload module in Drupal 4.7.x before 4.7.8 and 5.x before 5.3 places the .html extension on a whitelist, which allows remote attackers to conduct cross-site scripting (XSS) attacks by uploading .html files.",
+    "datePublished": "Oct 19, 2007, 11:00:00 PM",
+    "dateUpdated": "Aug 7, 2024, 3:39:13 PM",
+    "baseScore": null,
+    "references": "http://www.vupen.com/english/advisories/2007/3546\nhttp://secunia.com/advisories/27292\nhttps://www.redhat.com/archives/fedora-package-announce/2007-October/msg00328.html\nhttp://secunia.com/advisories/27352\nhttps://exchange.xforce.ibmcloud.com/vulnerabilities/37274\nhttp://drupal.org/node/184320\nhttp://www.securityfocus.com/bid/26119\n",
+    "aliases": "CVE-2007-5596\nGHSA-mrvq-r8g7-548f\n",
+    "assigner": "mitre",
+    "epss": 1.63,
+    "enisaIdProduct": [
+      {
+        "id": "e473d89d-8ba5-3eda-a2cd-52747bf38b7a",
+        "product": {
+          "name": "n/a",
+          "vendor": {
+            "name": "n/a"
+          }
+        },
+        "product_version": "n/a"
+      }
+    ],
+    "enisaIdVendor": [
+      {
+        "id": "fd434f98-ce95-3f94-a80e-ad3b44a3db32",
+        "vendor": {
+          "name": "n/a"
+        }
+      }
+    ]
+  },
+  {
+    "id": "EUVD-2008-4772",
+    "enisaUuid": "c27842f7-be7d-3f3a-b47a-9b463f665e2f",
+    "description": "The core BlogAPI module in Drupal 5.x before 5.11 and 6.x before 6.5 does not properly validate unspecified content fields of an internal Drupal form, which allows remote authenticated users to bypass intended access restrictions via modified field values.",
+    "datePublished": "Oct 29, 2008, 3:00:00 PM",
+    "dateUpdated": "Aug 7, 2024, 10:31:27 AM",
+    "baseScore": null,
+    "references": "http://drupal.org/node/318706\nhttp://secunia.com/advisories/32201\nhttp://www.openwall.com/lists/oss-security/2008/10/21/7\nhttps://exchange.xforce.ibmcloud.com/vulnerabilities/45761\n",
+    "aliases": "CVE-2008-4792\nGHSA-8q2j-8pc6-8c5r\n",
+    "assigner": "mitre",
+    "epss": 1.28,
+    "enisaIdProduct": [
+      {
+        "id": "f9bd4cf4-c285-3afc-ad20-e5aa700f7afb",
+        "product": {
+          "name": "n/a",
+          "vendor": {
+            "name": "n/a"
+          }
+        },
+        "product_version": "n/a"
+      }
+    ],
+    "enisaIdVendor": [
+      {
+        "id": "d5d6a985-57cc-36fd-8e78-480596a7709f",
+        "vendor": {
+          "name": "n/a"
+        }
+      }
+    ]
+  },
+  {
+    "id": "EUVD-2008-4770",
+    "enisaUuid": "d6d44914-2d37-3f11-b715-6fb718787bb0",
+    "description": "The core upload module in Drupal 5.x before 5.11 allows remote authenticated users to bypass intended access restrictions and read \"files attached to content\" via unknown vectors.",
+    "datePublished": "Oct 29, 2008, 3:00:00 PM",
+    "dateUpdated": "Aug 7, 2024, 10:31:27 AM",
+    "baseScore": null,
+    "references": "http://secunia.com/advisories/32198\nhttp://drupal.org/node/318706\nhttp://secunia.com/advisories/32200\nhttps://exchange.xforce.ibmcloud.com/vulnerabilities/45758\nhttp://www.openwall.com/lists/oss-security/2008/10/21/7\n",
+    "aliases": "GHSA-p6w6-6v99-r2gr\nCVE-2008-4790\n",
+    "assigner": "mitre",
+    "epss": 1.0,
+    "enisaIdProduct": [
+      {
+        "id": "67c6b7e1-c486-3be9-96fc-5ebf3f65ec23",
+        "product": {
+          "name": "n/a",
+          "vendor": {
+            "name": "n/a"
+          }
+        },
+        "product_version": "n/a"
+      }
+    ],
+    "enisaIdVendor": [
+      {
+        "id": "d1b28cdc-224c-3f20-981b-488b1cb86acd",
+        "vendor": {
+          "name": "n/a"
+        }
+      }
+    ]
+  },
+  {
+    "id": "EUVD-2008-4769",
+    "enisaUuid": "48cefb49-b1e3-3c32-9d18-265eb0ac19c6",
+    "description": "The validation functionality in the core upload module in Drupal 6.x before 6.5 allows remote authenticated users to bypass intended access restrictions and \"attach files to content,\" related to a \"logic error.\"",
+    "datePublished": "Oct 29, 2008, 3:00:00 PM",
+    "dateUpdated": "Aug 7, 2024, 10:31:27 AM",
+    "baseScore": null,
+    "references": "http://secunia.com/advisories/32198\nhttp://drupal.org/node/318706\nhttp://www.openwall.com/lists/oss-security/2008/10/21/7\nhttps://exchange.xforce.ibmcloud.com/vulnerabilities/45755\n",
+    "aliases": "GHSA-4jgw-6462-7fw2\nCVE-2008-4789\n",
+    "assigner": "mitre",
+    "epss": 0.95,
+    "enisaIdProduct": [
+      {
+        "id": "05971eb2-c652-3334-bc01-02da75766a8f",
+        "product": {
+          "name": "n/a",
+          "vendor": {
+            "name": "n/a"
+          }
+        },
+        "product_version": "n/a"
+      }
+    ],
+    "enisaIdVendor": [
+      {
+        "id": "fa172069-a16b-31cf-911e-e7efbe329fc3",
+        "vendor": {
+          "name": "n/a"
+        }
+      }
+    ]
+  },
+  {
+    "id": "EUVD-2009-4339",
+    "enisaUuid": "5507aeab-7c81-324c-85d6-9768f80fa4f5",
+    "description": "Cross-site scripting (XSS) vulnerability in the Locale module (modules/locale/locale.module) in Drupal Core 6.14, and possibly other versions including 6.15, allows remote authenticated users with \"administer languages\" permissions to inject arbitrary web script or HTML via the (1) Language name in English or (2) Native language name fields in the Custom language form.",
+    "datePublished": "Dec 21, 2009, 4:00:00 PM",
+    "dateUpdated": "Aug 7, 2024, 7:01:20 AM",
+    "baseScore": null,
+    "references": "https://exchange.xforce.ibmcloud.com/vulnerabilities/54873\nhttp://secunia.com/advisories/37825\nhttp://www.madirish.net/?article=442\n",
+    "aliases": "CVE-2009-4371\nGHSA-cv5p-xvxc-9fqp\n",
+    "assigner": "mitre",
+    "epss": 0.89,
+    "enisaIdProduct": [
+      {
+        "id": "df4ce6d5-6244-3ede-8a6e-274ccaeecd34",
+        "product": {
+          "name": "n/a",
+          "vendor": {
+            "name": "n/a"
+          }
+        },
+        "product_version": "n/a"
+      }
+    ],
+    "enisaIdVendor": [
+      {
+        "id": "c12fb4c4-c94c-3f6d-8f0e-832c364be10a",
+        "vendor": {
+          "name": "n/a"
+        }
+      }
+    ]
+  },
+  {
+    "id": "EUVD-2009-4338",
+    "enisaUuid": "c94dc53b-b573-3a7a-97bd-48dcf0bdcd8f",
+    "description": "Cross-site scripting (XSS) vulnerability in the Menu module (modules/menu/menu.admin.inc) in Drupal Core 6.x before 6.15 allows remote authenticated users with permissions to create new menus to inject arbitrary web script or HTML via a menu description, which is not properly handled in the menu administration overview.",
+    "datePublished": "Dec 21, 2009, 4:00:00 PM",
+    "dateUpdated": "Aug 7, 2024, 7:01:20 AM",
+    "baseScore": null,
+    "references": "http://drupal.org/files/sa-core-2009-009/SA-CORE-2009-009-6.14.patch\nhttp://drupal.org/node/661586\nhttp://www.securityfocus.com/bid/37372\nhttps://exchange.xforce.ibmcloud.com/vulnerabilities/54872\nhttp://secunia.com/advisories/37815\n",
+    "aliases": "GHSA-42mr-w3cr-f7h3\nCVE-2009-4370\n",
+    "assigner": "mitre",
+    "epss": 0.89,
+    "enisaIdProduct": [
+      {
+        "id": "3bc982de-a818-3c34-92b9-eceb83a50e29",
+        "product": {
+          "name": "n/a",
+          "vendor": {
+            "name": "n/a"
+          }
+        },
+        "product_version": "n/a"
+      }
+    ],
+    "enisaIdVendor": [
+      {
+        "id": "456ab6a2-faa5-3dee-963b-e587547b778a",
+        "vendor": {
+          "name": "n/a"
+        }
+      }
+    ]
+  },
+  {
+    "id": "EUVD-2009-4337",
+    "enisaUuid": "dcebd720-b744-36e7-82d0-7d370ed73ae8",
+    "description": "Cross-site scripting (XSS) vulnerability in the Contact module (modules/contact/contact.admin.inc or modules/contact/contact.module) in Drupal Core 5.x before 5.21 and 6.x before 6.15 allows remote authenticated users with \"administer site-wide contact form\" permissions to inject arbitrary web script or HTML via the contact category name.",
+    "datePublished": "Dec 21, 2009, 4:00:00 PM",
+    "dateUpdated": "Aug 7, 2024, 7:01:20 AM",
+    "baseScore": null,
+    "references": "http://drupal.org/files/sa-core-2009-009/SA-CORE-2009-009-6.14.patch\nhttp://drupal.org/node/661586\nhttp://www.securityfocus.com/bid/37372\nhttp://secunia.com/advisories/37824\nhttps://exchange.xforce.ibmcloud.com/vulnerabilities/54867\nhttp://www.madirish.net/?article=441\nhttp://secunia.com/advisories/37815\n",
+    "aliases": "GHSA-3rm3-gj9m-589h\nCVE-2009-4369\n",
+    "assigner": "mitre",
+    "epss": 1.08,
+    "enisaIdProduct": [
+      {
+        "id": "f52f6594-5773-306d-a98f-daf30e1e04f0",
+        "product": {
+          "name": "n/a",
+          "vendor": {
+            "name": "n/a"
+          }
+        },
+        "product_version": "n/a"
+      }
+    ],
+    "enisaIdVendor": [
+      {
+        "id": "4d1018da-6742-3369-8da7-b67d3463178c",
+        "vendor": {
+          "name": "n/a"
+        }
+      }
+    ]
+  },
+  {
+    "id": "EUVD-2009-3753",
+    "enisaUuid": "89d430a5-584e-3f88-a992-346c054d8f17",
+    "description": "The filefield_file_download function in FileField 6.x-3.1, a module for Drupal, does not properly check node-access permissions for Drupal core private files, which allows remote attackers to access unauthorized files via unspecified vectors.",
+    "datePublished": "Oct 26, 2009, 5:00:00 PM",
+    "dateUpdated": "Aug 7, 2024, 6:38:30 AM",
+    "baseScore": null,
+    "references": "http://drupal.org/node/516104\nhttp://www.securityfocus.com/bid/36792\nhttp://drupal.org/node/611128\nhttp://drupal.org/node/609874\nhttps://exchange.xforce.ibmcloud.com/vulnerabilities/53897\nhttp://drupal.org/files/issues/filefield-node-access-fix-516104-3.patch\nhttp://secunia.com/advisories/37130\n",
+    "aliases": "CVE-2009-3781\nGHSA-wpp8-x44c-v39q\n",
+    "assigner": "mitre",
+    "epss": 2.16,
+    "enisaIdProduct": [
+      {
+        "id": "4ede555b-3058-3cd9-845d-24635c4b9cbe",
+        "product": {
+          "name": "n/a",
+          "vendor": {
+            "name": "n/a"
+          }
+        },
+        "product_version": "n/a"
+      }
+    ],
+    "enisaIdVendor": [
+      {
+        "id": "74f548b0-c6c2-3d39-8fdf-0aa28633cc89",
+        "vendor": {
+          "name": "n/a"
+        }
+      }
+    ]
+  },
+  {
+    "id": "EUVD-2011-2704",
+    "enisaUuid": "cbfd0cae-6b75-3f36-b493-793c77d1ebb4",
+    "description": "An access bypass issue was found in Drupal 7.x before version 7.5. If a Drupal site has the ability to attach File upload fields to any entity type in the system or has the ability to point individual File upload fields to the private file directory in comments, and the parent node is denied access, non-privileged users can still download the file attached to the comment if they know or guess its direct URL.",
+    "datePublished": "Nov 15, 2019, 4:21:51 PM",
+    "dateUpdated": "Aug 6, 2024, 11:08:23 PM",
+    "baseScore": null,
+    "references": "https://security-tracker.debian.org/tracker/CVE-2011-2726\nhttps://bugzilla.redhat.com/show_bug.cgi?id=CVE-2011-2726\nhttps://access.redhat.com/security/cve/cve-2011-2726\nhttp://www.openwall.com/lists/oss-security/2012/03/19/10\nhttp://www.openwall.com/lists/oss-security/2012/03/20/14\nhttps://www.drupal.org/node/1231510\n",
+    "aliases": "CVE-2011-2726\nGHSA-ph8m-2h2f-qgr2\n",
+    "assigner": "redhat",
+    "epss": 1.6,
+    "enisaIdProduct": [
+      {
+        "id": "3a4e3962-d64c-359f-9e1b-4b14e7500b2a",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "7.x before version 7.5"
+      }
+    ],
+    "enisaIdVendor": [
+      {
+        "id": "5af9d14d-1a58-3a4b-9ac2-d70a90d46c2c",
+        "vendor": {
+          "name": "drupal core"
+        }
+      }
+    ]
+  },
+  {
+    "id": "EUVD-2012-2077",
+    "enisaUuid": "a0421710-7a8b-39eb-b12c-f8426078a713",
+    "description": "Cross-site scripting (XSS) vulnerability in the Contact Forms module 6.x-1.x before 6.x-1.13 for Drupal when the core contact form is enabled, allows remote authenticated users with the administer site-wide contact form permission to inject arbitrary web script or HTML via unspecified vectors.",
+    "datePublished": "Aug 14, 2012, 11:00:00 PM",
+    "dateUpdated": "Aug 6, 2024, 7:17:27 PM",
+    "baseScore": null,
+    "references": "http://osvdb.org/80674\nhttp://drupal.org/node/1506330\nhttp://secunia.com/advisories/48583\nhttp://www.openwall.com/lists/oss-security/2012/04/07/1\nhttps://exchange.xforce.ibmcloud.com/vulnerabilities/74467\nhttp://drupal.org/node/1506404\nhttp://www.securityfocus.com/bid/52801\n",
+    "aliases": "CVE-2012-2071\nGHSA-fq7r-m8m3-5v75\n",
+    "assigner": "redhat",
+    "epss": 1.06,
+    "enisaIdProduct": [
+      {
+        "id": "50128479-f1d6-3ad9-9198-79c61a703833",
+        "product": {
+          "name": "n/a",
+          "vendor": {
+            "name": "n/a"
+          }
+        },
+        "product_version": "n/a"
+      }
+    ],
+    "enisaIdVendor": [
+      {
+        "id": "438a6d11-1f2c-321f-8ca5-362e670172ec",
+        "vendor": {
+          "name": "n/a"
+        }
+      }
+    ]
+  },
+  {
+    "id": "EUVD-2012-2073",
+    "enisaUuid": "cfae208b-9e76-3420-8c84-0e5f4760f64f",
+    "description": "Unspecified vulnerability in the CKeditor module 6.x-2.x before 6.x-2.3 and the CKEditor module 6.x-1.x before 6.x-1.9 and 7.x-1.x before 7.x-1.7 for Drupal, when the core PHP module is enabled, allows remote authenticated users or remote attackers to execute arbitrary PHP code via the text parameter to a text filter.  NOTE: some of these details are obtained from third party information.",
+    "datePublished": "Sep 5, 2012, 12:00:00 AM",
+    "dateUpdated": "Aug 6, 2024, 7:17:27 PM",
+    "baseScore": null,
+    "references": "http://drupal.org/node/1482442\nhttp://www.osvdb.org/80080\nhttps://exchange.xforce.ibmcloud.com/vulnerabilities/74037\nhttp://drupal.org/node/1482480\nhttp://www.openwall.com/lists/oss-security/2012/04/07/1\nhttp://drupal.org/node/1482466\nhttp://secunia.com/advisories/48435\nhttp://drupal.org/node/1482528\n",
+    "aliases": "CVE-2012-2067\nGHSA-69cf-fghj-vwjc\n",
+    "assigner": "redhat",
+    "epss": 1.53,
+    "enisaIdProduct": [
+      {
+        "id": "f8d7e4e0-e3d9-3339-b830-1f6866b8c5aa",
+        "product": {
+          "name": "n/a",
+          "vendor": {
+            "name": "n/a"
+          }
+        },
+        "product_version": "n/a"
+      }
+    ],
+    "enisaIdVendor": [
+      {
+        "id": "7e74fc74-b9f2-3476-896e-3cc0fa6de80d",
+        "vendor": {
+          "name": "n/a"
+        }
+      }
+    ]
+  },
+  {
+    "id": "EUVD-2014-5068",
+    "enisaUuid": "0c572d70-3c42-3a9e-a683-3f4d879c9e0c",
+    "description": "The Storage API module 7.x before 7.x-1.6 for Drupal might allow remote attackers to execute arbitrary code by leveraging failure to update .htaccess file contents after SA-CORE-2013-003.",
+    "datePublished": "Mar 29, 2018, 6:00:00 PM",
+    "dateUpdated": "Aug 6, 2024, 11:34:37 AM",
+    "baseScore": null,
+    "references": "https://www.drupal.org/node/2312769\nhttps://www.drupal.org/node/2312655\nhttps://exchange.xforce.ibmcloud.com/vulnerabilities/95054\nhttp://www.openwall.com/lists/oss-security/2014/07/31/4\n",
+    "aliases": "GHSA-ffgv-x7xc-phrj\nCVE-2014-5170\n",
+    "assigner": "mitre",
+    "epss": 3.88,
+    "enisaIdProduct": [
+      {
+        "id": "ea5ba335-67d4-3425-b03c-5378593e3b6a",
+        "product": {
+          "name": "n/a",
+          "vendor": {
+            "name": "n/a"
+          }
+        },
+        "product_version": "n/a"
+      }
+    ],
+    "enisaIdVendor": [
+      {
+        "id": "d6c0a027-6ee0-39eb-b335-d4a75250b873",
+        "vendor": {
+          "name": "n/a"
+        }
+      }
+    ]
+  },
+  {
+    "id": "EUVD-2014-3650",
+    "enisaUuid": "f7b5e19f-ec96-372c-a3b0-cc704ee71f75",
+    "description": "The expandArguments function in the database abstraction API in Drupal core 7.x before 7.32 does not properly construct prepared statements, which allows remote attackers to conduct SQL injection attacks via an array containing crafted keys.",
+    "datePublished": "Oct 16, 2014, 12:00:00 AM",
+    "dateUpdated": "Aug 6, 2024, 10:50:17 AM",
+    "baseScore": null,
+    "references": "https://www.drupal.org/SA-CORE-2014-005\nhttp://seclists.org/fulldisclosure/2014/Oct/75\nhttp://www.securityfocus.com/archive/1/533706/100/0/threaded\nhttps://www.sektioneins.de/en/advisories/advisory-012014-drupal-pre-auth-sql-injection-vulnerability.html\nhttp://www.exploit-db.com/exploits/34984\nhttp://www.exploit-db.com/exploits/35150\nhttp://www.openwall.com/lists/oss-security/2014/10/15/23\nhttp://secunia.com/advisories/59972\nhttp://packetstormsecurity.com/files/128741/Drupal-HTTP-Parameter-Key-Value-SQL-Injection.html\nhttp://www.exploit-db.com/exploits/34992\nhttp://www.debian.org/security/2014/dsa-3051\nhttp://www.securityfocus.com/bid/70595\nhttp://www.exploit-db.com/exploits/34993\nhttp://packetstormsecurity.com/files/128721/Drupal-7.31-SQL-Injection.html\nhttp://osvdb.org/show/osvdb/113371\nhttps://www.sektioneins.de/en/blog/14-11-03-drupal-sql-injection-vulnerability-PoC.html\nhttp://packetstormsecurity.com/files/128720/Drupal-7.X-SQL-Injection.html\n",
+    "aliases": "CVE-2014-3704\nGHSA-f9cm-c972-9975\n",
+    "assigner": "redhat",
+    "epss": 99.97,
+    "enisaIdProduct": [
+      {
+        "id": "b27758c5-fdfe-3a8c-bb52-f87a4d657799",
+        "product": {
+          "name": "n/a",
+          "vendor": {
+            "name": "n/a"
+          }
+        },
+        "product_version": "n/a"
+      }
+    ],
+    "enisaIdVendor": [
+      {
+        "id": "6f9be31d-e047-33f9-bb9e-7cb4b658fdcc",
+        "vendor": {
+          "name": "n/a"
+        }
+      }
+    ]
+  },
+  {
+    "id": "EUVD-2022-3687",
+    "enisaUuid": "221c15eb-4c85-31e1-a2a3-677f4d9b0eca",
+    "description": "In versions of Drupal 8 core prior to 8.3.7; There is a vulnerability in the entity access system that could allow unwanted access to view, create, update, or delete entities. This only affects entities that do not use or do not have UUIDs, and entities that have different access restrictions on different revisions of the same entity.",
+    "datePublished": "Jan 15, 2019, 5:00:00 PM",
+    "dateUpdated": "Aug 5, 2024, 3:49:01 PM",
+    "baseScore": null,
+    "references": "http://www.securityfocus.com/bid/100368\nhttps://www.drupal.org/forum/newsletters/security-advisories-for-drupal-core/2017-08-16/drupal-core-multiple\nhttp://www.securitytracker.com/id/1039200\n",
+    "aliases": "GHSA-f4qx-jqfq-7785\nCVE-2017-6925\n",
+    "assigner": "drupal",
+    "epss": 3.02,
+    "enisaIdProduct": [
+      {
+        "id": "f210471e-6ffc-3a7b-8bfa-99ba40aa1182",
+        "product": {
+          "name": "n/a",
+          "vendor": {
+            "name": "n/a"
+          }
+        },
+        "product_version": "n/a"
+      }
+    ],
+    "enisaIdVendor": [
+      {
+        "id": "61f993de-062b-3c87-91f3-934b9a9e3118",
+        "vendor": {
+          "name": "n/a"
+        }
+      }
+    ]
+  },
+  {
+    "id": "EUVD-2022-5528",
+    "enisaUuid": "da6f550c-6d2a-38d2-99d5-b8be7ec359d7",
+    "description": "When adding a private file via the editor in Drupal 8.2.x before 8.2.7, the editor will not correctly check access for the file being attached, resulting in an access bypass.",
+    "datePublished": "Mar 16, 2017, 2:00:00 PM",
+    "dateUpdated": "Aug 5, 2024, 3:25:49 PM",
+    "baseScore": null,
+    "references": "http://www.securitytracker.com/id/1038058\nhttps://www.drupal.org/SA-2017-001\nhttp://www.securityfocus.com/bid/96919\n",
+    "aliases": "GHSA-w7qx-vwr9-2j3r\nCVE-2017-6377\n",
+    "assigner": "drupal",
+    "epss": 1.89,
+    "enisaIdProduct": [
+      {
+        "id": "5def9b46-12bc-3988-92b0-96248596e7bb",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "8.2.x versions before 8.2.7"
+      }
+    ],
+    "enisaIdVendor": [
+      {
+        "id": "2fce7d71-dd68-31e2-926b-146da066fe75",
+        "vendor": {
+          "name": "Drupal"
+        }
+      }
+    ]
+  },
+  {
+    "id": "EUVD-2022-5180",
+    "enisaUuid": "73814b3a-9117-31d7-ace7-001c44d56dcf",
+    "description": "A 3rd party development library including with Drupal 8 development dependencies is vulnerable to remote code execution. This is mitigated by the default .htaccess protection against PHP execution, and the fact that Composer development dependencies aren't normal installed. You might be vulnerable to this if you are running a version of Drupal before 8.2.2. To be sure you aren't vulnerable, you can remove the <siteroot>/vendor/phpunit directory from your production deployments",
+    "datePublished": "Mar 16, 2017, 2:00:00 PM",
+    "dateUpdated": "Aug 5, 2024, 3:25:49 PM",
+    "baseScore": null,
+    "references": "http://www.securitytracker.com/id/1038058\nhttps://www.drupal.org/SA-2017-001\nhttp://www.securityfocus.com/bid/96919\n",
+    "aliases": "GHSA-rhx9-3qf7-r3j7\nCVE-2017-6381\n",
+    "assigner": "drupal",
+    "epss": 3.9,
+    "enisaIdProduct": [
+      {
+        "id": "efc1fe11-1fae-352b-82b4-658e3886dc1c",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "8.2.x versions before 8.2.7"
+      }
+    ],
+    "enisaIdVendor": [
+      {
+        "id": "9a7d10e8-e19d-3de3-9e02-1462c32066e7",
+        "vendor": {
+          "name": "Drupal"
+        }
+      }
+    ]
+  },
+  {
+    "id": "EUVD-2022-4035",
+    "enisaUuid": "11d014a7-f179-3253-8506-cb279af55d24",
+    "description": "Some administrative paths in Drupal 8.2.x before 8.2.7 did not include protection for CSRF. This would allow an attacker to disable some blocks on a site. This issue is mitigated by the fact that users would have to know the block ID.",
+    "datePublished": "Mar 16, 2017, 2:00:00 PM",
+    "dateUpdated": "Aug 5, 2024, 3:25:49 PM",
+    "baseScore": null,
+    "references": "http://www.securitytracker.com/id/1038058\nhttps://www.drupal.org/SA-2017-001\nhttp://www.securityfocus.com/bid/96919\n",
+    "aliases": "CVE-2017-6379\nGHSA-gxxq-fhc7-3jv9\n",
+    "assigner": "drupal",
+    "epss": 0.78,
+    "enisaIdProduct": [
+      {
+        "id": "cfad2a0a-dff0-3ccf-9303-ee39a20a3601",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "8.2.x versions before 8.2.7"
+      }
+    ],
+    "enisaIdVendor": [
+      {
+        "id": "aadb6648-c96f-3069-adb3-f3e3a30045e7",
+        "vendor": {
+          "name": "Drupal"
+        }
+      }
+    ]
+  },
+  {
+    "id": "EUVD-2022-3597",
+    "enisaUuid": "c90e43da-e8a4-3f09-ad2e-0743a36e2e65",
+    "description": "In Drupal 7 versions prior to 7.65; Drupal 8.6 versions prior to 8.6.13;Drupal 8.5 versions prior to 8.5.14. Under certain circumstances the File module/subsystem allows a malicious user to upload a file that can trigger a cross-site scripting (XSS) vulnerability.",
+    "datePublished": "Mar 26, 2019, 6:04:37 PM",
+    "dateUpdated": "Aug 4, 2024, 8:23:20 PM",
+    "baseScore": null,
+    "references": "https://www.drupal.org/sa-core-2019-004\nhttps://lists.debian.org/debian-lts-announce/2019/04/msg00003.html\nhttps://www.synology.com/security/advisory/Synology_SA_19_13\nhttps://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/QNTLCBAN6T7WYR5C4TNEYQD65IIR3V4P/\nhttps://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/Y4SVTVIJ33XCFQ6X6XTVMQM3NPLP2WFS/\nhttps://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/P4KTET2PTSIS3ZZ4SGBRQEN6CCLV5SYX/\nhttps://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/IWHF4LALNBZCXMITWWVWKY3PNVYTM3N7/\n",
+    "aliases": "GHSA-cmmh-8mwp-gq5p\nCVE-2019-6341\n",
+    "assigner": "drupal",
+    "epss": 12.19,
+    "enisaIdProduct": [
+      {
+        "id": "7d8d879c-c165-36ec-bebd-e77d97485800",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "Drupal 8.5 <8.5.14"
+      },
+      {
+        "id": "bc291298-a47e-390f-a956-cb9e2eb725cc",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "Drupal 7 <7.65"
+      },
+      {
+        "id": "d847fa5f-14fd-3743-9d9a-0b33b6ff1360",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "Drupal 8.6 <8.6.13"
+      }
+    ],
+    "enisaIdVendor": [
+      {
+        "id": "20486243-c953-3e98-89e2-211d41809fa1",
+        "vendor": {
+          "name": "Drupal"
+        }
+      }
+    ]
+  },
+  {
+    "id": "EUVD-2019-15903",
+    "enisaUuid": "6daa438c-9015-3358-aa1f-0d86260202bc",
+    "description": "An access bypass vulnerability exists when the experimental Workspaces module in Drupal 8 core is enabled. This can be mitigated by disabling the Workspaces module. It does not affect any release other than Drupal 8.7.4.",
+    "datePublished": "May 28, 2020, 8:59:46 PM",
+    "dateUpdated": "Aug 4, 2024, 8:23:20 PM",
+    "baseScore": null,
+    "references": "https://www.drupal.org/sa-core-2019-008\n",
+    "aliases": "CVE-2019-6342\nGHSA-xq62-62c9-22mg\n",
+    "assigner": "drupal",
+    "epss": 1.86,
+    "enisaIdProduct": [
+      {
+        "id": "cf143535-91e0-3010-9e57-75abc2a3e109",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "Drupal 8 8.7.4"
+      }
+    ],
+    "enisaIdVendor": [
+      {
+        "id": "0c08f2da-0780-3573-a9d4-6ad9e7c0e5a0",
+        "vendor": {
+          "name": "Drupal"
+        }
+      }
+    ]
+  },
+  {
+    "id": "EUVD-2022-5732",
+    "enisaUuid": "41fc4140-4a9b-316f-9d75-07188c592b8e",
+    "description": "Arbitrary PHP code execution vulnerability in Drupal Core under certain circumstances. An attacker could trick an administrator into visiting a malicious site that could result in creating a carefully named directory on the file system. With this directory in place, an attacker could attempt to brute force a remote code execution vulnerability. Windows servers are most likely to be affected. This issue affects: Drupal Drupal Core 8.8.x versions prior to 8.8.8; 8.9.x versions prior to 8.9.1; 9.0.1 versions prior to 9.0.1.",
+    "datePublished": "May 5, 2021, 2:56:39 PM",
+    "dateUpdated": "Aug 4, 2024, 12:25:16 PM",
+    "baseScore": null,
+    "references": "https://www.drupal.org/sa-core-2020-005\n",
+    "aliases": "GHSA-x72f-ggjw-v5xh\nCVE-2020-13664\n",
+    "assigner": "drupal",
+    "epss": 2.98,
+    "enisaIdProduct": [
+      {
+        "id": "4e8d31ef-6d8e-34ea-8dd7-aca8be571dcd",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "8.8.x <8.8.8"
+      },
+      {
+        "id": "9332f50f-b9d6-370b-b587-f8359fed2156",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "9.0.1 <9.0.1"
+      },
+      {
+        "id": "b6fab4d2-001d-37c2-a661-5ca2bdc72fd4",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "8.9.x <8.9.1"
+      }
+    ],
+    "enisaIdVendor": [
+      {
+        "id": "f924c7db-f75f-37da-be3f-ffd2a71ce225",
+        "vendor": {
+          "name": "Drupal"
+        }
+      }
+    ]
+  },
+  {
+    "id": "EUVD-2022-5688",
+    "enisaUuid": "884751ba-34ab-3d99-bff5-37e1547352c5",
+    "description": "Access bypass vulnerability in of Drupal Core Workspaces allows an attacker to access data without correct permissions. The Workspaces module doesn't sufficiently check access permissions when switching workspaces, leading to an access bypass vulnerability. An attacker might be able to see content before the site owner intends people to see the content. This vulnerability is mitigated by the fact that sites are only vulnerable if they have installed the experimental Workspaces module. This issue affects Drupal Core8.8.X versions prior to 8.8.10; 8.9.X versions prior to 8.9.6; 9.0.X versions prior to 9.0.6.",
+    "datePublished": "May 17, 2021, 4:52:34 PM",
+    "dateUpdated": "Aug 4, 2024, 12:25:16 PM",
+    "baseScore": null,
+    "references": "https://www.drupal.org/sa-core-2020-008\n",
+    "aliases": "CVE-2020-13667\nGHSA-x2q9-r8gm-f657\n",
+    "assigner": "drupal",
+    "epss": 0.93,
+    "enisaIdProduct": [
+      {
+        "id": "286ac76a-4cc1-3967-a3dd-98c1cabcea90",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "8.9.X <8.9.6"
+      },
+      {
+        "id": "2ea02308-f336-319f-a0b2-5ce0a653bea3",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "9.0.X <9.0.6"
+      },
+      {
+        "id": "f49edf6a-b35d-3a0c-973b-ceadb58d3312",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "8.8.X <8.8.10"
+      }
+    ],
+    "enisaIdVendor": [
+      {
+        "id": "20c7c934-9a6a-3e22-aba0-1581a7f721da",
+        "vendor": {
+          "name": "Drupal"
+        }
+      }
+    ]
+  },
+  {
+    "id": "EUVD-2022-5673",
+    "enisaUuid": "7b555c57-cc07-3866-b5a0-a35f9c98567c",
+    "description": "Access bypass vulnerability in Drupal Core allows JSON:API when JSON:API is in read/write mode. Only sites that have the read_only set to FALSE under jsonapi.settings config are vulnerable. This issue affects: Drupal Drupal Core 8.8.x versions prior to 8.8.8; 8.9.x versions prior to 8.9.1; 9.0.x versions prior to 9.0.1.",
+    "datePublished": "May 5, 2021, 2:14:09 PM",
+    "dateUpdated": "Aug 4, 2024, 12:25:16 PM",
+    "baseScore": null,
+    "references": "https://www.drupal.org/sa-core-2020-006\n",
+    "aliases": "GHSA-wxqp-jwc9-g39x\nCVE-2020-13665\n",
+    "assigner": "drupal",
+    "epss": 1.28,
+    "enisaIdProduct": [
+      {
+        "id": "468d4db1-d69c-388a-9e36-0962f26d95be",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "8.8.x <8.8.8"
+      },
+      {
+        "id": "c7242593-90ce-3c5a-8cbd-694e6a847779",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "9.0.x <9.0.1"
+      },
+      {
+        "id": "d3edeb61-a116-3a8b-9e73-7c0c424a9845",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "8.9.x <8.9.1"
+      }
+    ],
+    "enisaIdVendor": [
+      {
+        "id": "a12b7da1-3aa7-399f-84ee-5fc591cf6151",
+        "vendor": {
+          "name": "Drupal"
+        }
+      }
+    ]
+  },
+  {
+    "id": "EUVD-2022-4953",
+    "enisaUuid": "ae3dcff4-87d2-343b-97e8-f7ea5ab34030",
+    "description": "Cross-site scripting vulnerability in l Drupal Core allows an attacker could leverage the way that HTML is rendered for affected forms in order to exploit the vulnerability. This issue affects: Drupal Core 8.8.X versions prior to 8.8.10; 8.9.X versions prior to 8.9.6; 9.0.X versions prior to 9.0.6.",
+    "datePublished": "Jun 11, 2021, 3:08:56 PM",
+    "dateUpdated": "Aug 4, 2024, 12:25:16 PM",
+    "baseScore": null,
+    "references": "https://www.drupal.org/sa-core-2020-009\n",
+    "aliases": "CVE-2020-13688\nGHSA-qf2g-mrrx-rr5p\n",
+    "assigner": "drupal",
+    "epss": 0.66,
+    "enisaIdProduct": [
+      {
+        "id": "0a8f5b5e-3950-3423-a801-693704ad582f",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "9.0.X <9.0.6"
+      },
+      {
+        "id": "a1464c39-9ede-3dee-955a-338554fbefd9",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "8.8.X <8.8.10"
+      },
+      {
+        "id": "fd6bfaef-4edb-3ad2-9bb8-5dff1a90422f",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "8.9.X <8.9.6"
+      }
+    ],
+    "enisaIdVendor": [
+      {
+        "id": "0576a7d2-9d16-3c17-8a4a-26d6359804d2",
+        "vendor": {
+          "name": "Drupal"
+        }
+      }
+    ]
+  },
+  {
+    "id": "EUVD-2022-4500",
+    "enisaUuid": "78d967d0-1577-3a0a-8cce-2ac731925751",
+    "description": "Cross Site Request Forgery vulnerability in Drupal Core Form API does not properly handle certain form input from cross-site requests, which can lead to other vulnerabilities.",
+    "datePublished": "Jun 11, 2021, 3:07:25 PM",
+    "dateUpdated": "Aug 4, 2024, 12:25:16 PM",
+    "baseScore": null,
+    "references": "https://www.drupal.org/sa-core-2020-004\n",
+    "aliases": "CVE-2020-13663\nGHSA-m648-hpf8-qcjw\n",
+    "assigner": "drupal",
+    "epss": 0.7,
+    "enisaIdProduct": [
+      {
+        "id": "3b369d43-76d4-3e1c-aa6e-15451cef43de",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "8.8.x <8.8.8"
+      },
+      {
+        "id": "474843b1-fdf8-352b-aac8-ed5efe113e85",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "9.0.x <9.0.1"
+      },
+      {
+        "id": "ec1773c9-4509-3bc3-b04c-53cce32bfe41",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "7.x <7.72"
+      },
+      {
+        "id": "f2cf11ae-fd1e-31aa-9667-d3ea41c3beb5",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "8.9.x <8.9.1"
+      }
+    ],
+    "enisaIdVendor": [
+      {
+        "id": "0db54704-95ff-3fcf-b7d7-85c19a381425",
+        "vendor": {
+          "name": "Drupal"
+        }
+      }
+    ]
+  },
+  {
+    "id": "EUVD-2022-3971",
+    "enisaUuid": "be5e2389-d7ec-3a3a-b5b0-8c49ad08a032",
+    "description": "Open Redirect vulnerability in Drupal Core allows a user to be tricked into visiting a specially crafted link which would redirect them to an arbitrary external URL. This issue affects: Drupal Drupal Core 7 version 7.70 and prior versions.",
+    "datePublished": "May 5, 2021, 2:32:03 PM",
+    "dateUpdated": "Aug 4, 2024, 12:25:16 PM",
+    "baseScore": null,
+    "references": "https://www.drupal.org/sa-core-2020-003\n",
+    "aliases": "GHSA-gjqg-9rhv-qj67\nCVE-2020-13662\n",
+    "assigner": "drupal",
+    "epss": 0.86,
+    "enisaIdProduct": [
+      {
+        "id": "5762c537-2c80-3e11-b7ce-040f2c97be6c",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "7 ≤7.70"
+      }
+    ],
+    "enisaIdVendor": [
+      {
+        "id": "e334eb73-74de-3302-b1b0-ebbee6f873cd",
+        "vendor": {
+          "name": "Drupal"
+        }
+      }
+    ]
+  },
+  {
+    "id": "EUVD-2022-3195",
+    "enisaUuid": "ca6da101-25f4-34b4-a49b-ccbb3f0b9a92",
+    "description": "Cross-site scripting vulnerability in Drupal Core. Drupal AJAX API does not disable JSONP by default, allowing for an XSS attack. This issue affects: Drupal Drupal Core 7.x versions prior to 7.73; 8.8.x versions prior to 8.8.10; 8.9.x versions prior to 8.9.6; 9.0.x versions prior to 9.0.6.",
+    "datePublished": "May 5, 2021, 1:50:13 PM",
+    "dateUpdated": "Aug 4, 2024, 12:25:16 PM",
+    "baseScore": null,
+    "references": "https://www.drupal.org/sa-core-2020-007\n",
+    "aliases": "CVE-2020-13666\nGHSA-8jj2-x2gc-ggm7\n",
+    "assigner": "drupal",
+    "epss": 2.93,
+    "enisaIdProduct": [
+      {
+        "id": "6b0edc25-a290-309d-9c64-974edad7de7e",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "8.8.x <8.8.10"
+      },
+      {
+        "id": "b64ee399-4670-34f4-8222-2ea31d8a0acf",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "9.0.x <9.0.6"
+      },
+      {
+        "id": "b8177e67-a4cb-31e0-a9ae-29a717e6a683",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "7.x <7.73"
+      },
+      {
+        "id": "e509b300-1209-35d6-a6fe-0318756c19d2",
+        "product": {
+          "name": "drupal core",
+          "vendor": {
+            "name": "Drupal"
+          }
+        },
+        "product_version": "8.9.x <8.9.6"
+      }
+    ],
+    "enisaIdVendor": [
+      {
+        "id": "980df69c-bd62-31a2-a884-10f504d1f54d",
+        "vendor": {
+          "name": "Drupal"
+        }
+      }
+    ]
+  },
+  {
+    "id": "EUVD-2022-1104",
+    "enisaUuid": "d19b4765-7665-3fd8-90fc-def06268a969",
+    "description": "Information Disclosure vulnerability in file module of Drupal Core allows an attacker to gain access to the file metadata of a permanent private file that they do not have access to by guessing the ID of the file. This issue affects: Drupal Core 8.8.x versions prior to 8.8.10; 8.9.x versions prior to 8.9.6; 9.0.x versions prior to 9.0.6.",
+    "datePublished": "Feb 11, 2022, 3:45:22 PM",
+    "dateUpdated": "Aug 4, 2024, 12:25:16 PM",
+    "baseScore": null,
+    "references": "https://www.drupal.org/sa-core-2020-011\n",
+    "aliases": "GHSA-mmjr-5q74-p3m4\nCVE-2020-13670\n",
+    "assigner": "drupal",
+    "epss": 1.11,
+    "enisaIdProduct": [
+      {
+        "id": "24129026-178e-32fb-b7b7-71c8d43d30f3",
+        "product": {
+          "name": "core",
+          "vendor": {
+            "name": "OPNsense"
+          }
+        },
+        "product_version": "8.8.x <8.8.10"
+      },
+      {
+        "id": "cd01312e-4711-3134-b395-372293277480",
+        "product": {
+          "name": "core",
+          "vendor": {
+            "name": "OPNsense"
+          }
+        },
+        "product_version": "9.0.x <9.0.6"
+      },
+      {
+        "id": "d75a18c9-e005-3842-a740-69616aeef2cf",
+        "product": {
+          "name": "core",
+          "vendor": {
+            "name": "OPNsense"
+          }
+        },
+        "product_version": "8.9.x <8.9.6"
+      }
+    ],
+    "enisaIdVendor": [
+      {
+        "id": "af422e1b-c133-3c6d-bf00-3b4139da300e",
+        "vendor": {
+          "name": "Drupal"
+        }
+      }
+    ]
+  },
+  {
+    "id": "EUVD-2022-1096",
+    "enisaUuid": "bcba718f-8ca9-3565-aa0c-a4634cc00d0c",
+    "description": "Access Bypass vulnerability in Drupal Core allows for an attacker to leverage the way that HTML is rendered for affected forms in order to exploit the vulnerability. This issue affects: Drupal Core 8.8.x versions prior to 8.8.10; 8.9.x versions prior to 8.9.6; 9.0.x versions prior to 9.0.6.",
+    "datePublished": "Feb 11, 2022, 3:15:14 PM",
+    "dateUpdated": "Aug 4, 2024, 12:25:16 PM",
+    "baseScore": null,
+    "references": "https://www.drupal.org/sa-core-2020-009\n",
+    "aliases": "CVE-2020-13668\nGHSA-m6q5-wv4x-fv6h\n",
+    "assigner": "drupal",
+    "epss": 0.68,
+    "enisaIdProduct": [
+      {
+        "id": "1a05e37b-d798-3fdc-bdb0-905b41fa925f",
+        "product": {
+          "name": "core",
+          "vendor": {
+            "name": "OPNsense"
+          }
+        },
+        "product_version": "8.8.x <8.8.10"
+      },
+      {
+        "id": "2c51d8df-d142-3a62-ab71-0c80912b62b1",
+        "product": {
+          "name": "core",
+          "vendor": {
+            "name": "OPNsense"
+          }
+        },
+        "product_version": "8.9.x <8.9.6"
+      },
+      {
+        "id": "c9def6c3-9956-3be9-8a44-50d1f3b334f0",
+        "product": {
+          "name": "core",
+          "vendor": {
+            "name": "OPNsense"
+          }
+        },
+        "product_version": "9.0.x <9.0.6"
+      }
+    ],
+    "enisaIdVendor": [
+      {
+        "id": "4943fcae-6a66-3763-a3c1-d5b78d530c13",
+        "vendor": {
+          "name": "Drupal"
+        }
+      }
+    ]
+  },
+  {
+    "id": "EUVD-2022-0950",
+    "enisaUuid": "c054598e-0e06-34cb-b36f-09808559a2b7",
+    "description": "Cross-site Scripting (XSS) vulnerability in ckeditor of Drupal Core allows attacker to inject XSS. This issue affects: Drupal Core 8.8.x versions prior to 8.8.10.; 8.9.x versions prior to 8.9.6; 9.0.x versions prior to 9.0.6.",
+    "datePublished": "Feb 11, 2022, 3:25:12 PM",
+    "dateUpdated": "Aug 4, 2024, 12:25:16 PM",
+    "baseScore": null,
+    "references": "https://www.drupal.org/sa-core-2020-010\n",
+    "aliases": "GHSA-c533-c843-67h8\nCVE-2020-13669\n",
+    "assigner": "drupal",
+    "epss": 0.64,
+    "enisaIdProduct": [
+      {
+        "id": "5be8d96d-0719-3184-8b96-94dd2d9cff9a",
+        "product": {
+          "name": "core",
+          "vendor": {
+            "name": "OPNsense"
+          }
+        },
+        "product_version": "8.9.x <8.9.6"
+      },
+      {
+        "id": "636e0457-1598-3eab-ada5-0597d9a199ea",
+        "product": {
+          "name": "core",
+          "vendor": {
+            "name": "OPNsense"
+          }
+        },
+        "product_version": "9.0.x <9.0.6"
+      },
+      {
+        "id": "78ed86c7-5c88-3112-bc0e-b3fb348e4a37",
+        "product": {
+          "name": "core",
+          "vendor": {
+            "name": "OPNsense"
+          }
+        },
+        "product_version": "8.8.x <8.8.10"
+      }
+    ],
+    "enisaIdVendor": [
+      {
+        "id": "cd902f9b-4550-359c-9a2a-bbc2c052e600",
+        "vendor": {
+          "name": "Drupal"
+        }
+      }
+    ]
+  },
+  {
+    "id": "EUVD-2022-0799",
+    "enisaUuid": "e9d3c9a1-dcfc-3702-b44b-8230b22457c3",
+    "description": "Under some circumstances, the Drupal core JSON:API module does not properly restrict access to certain content, which may result in unintended access bypass. Sites that do not have the JSON:API module enabled are not affected.",
+    "datePublished": "Feb 11, 2022, 3:55:12 PM",
+    "dateUpdated": "Aug 4, 2024, 12:25:16 PM",
+    "baseScore": null,
+    "references": "https://www.drupal.org/sa-core-2021-010\n",
+    "aliases": "CVE-2020-13677\nGHSA-3xr3-phjp-g6p2\n",
+    "assigner": "drupal",
+    "epss": 1.05,
+    "enisaIdProduct": [
+      {
+        "id": "2942bf18-a522-3ae7-83d9-2c91910eb0e1",
+        "product": {
+          "name": "core",
+          "vendor": {
+            "name": "OPNsense"
+          }
+        },
+        "product_version": "8.9.x <8.9.19"
+      },
+      {
+        "id": "5e0314a0-2ef9-3758-9496-6fa5be4ff15c",
+        "product": {
+          "name": "core",
+          "vendor": {
+            "name": "OPNsense"
+          }
+        },
+        "product_version": "9.2.x <9.2.6"
+      },
+      {
+        "id": "fbfd68bd-9d28-3ac6-a692-cbc961278a4a",
+        "product": {
+          "name": "core",
+          "vendor": {
+            "name": "OPNsense"
+          }
+        },
+        "product_version": "9.1.x <9.1.13"
+      }
+    ],
+    "enisaIdVendor": [
+      {
+        "id": "44e87b98-181b-3daa-9430-1ba883a48eb8",
+        "vendor": {
+          "name": "Drupal"
+        }
+      }
+    ]
+  },
+  {
+    "id": "EUVD-2022-0793",
+    "enisaUuid": "3ea65862-753f-37c2-bfb6-25455377f4fe",
+    "description": "Cross-site Scripting (XSS) vulnerability in Drupal core's sanitization API fails to properly filter cross-site scripting under certain circumstances. This issue affects: Drupal Core 9.1.x versions prior to 9.1.7; 9.0.x versions prior to 9.0.12; 8.9.x versions prior to 8.9.14; 7.x versions prior to 7.80.",
+    "datePublished": "Feb 11, 2022, 3:30:12 PM",
+    "dateUpdated": "Aug 4, 2024, 12:25:16 PM",
+    "baseScore": null,
+    "references": "https://www.drupal.org/sa-core-2021-002\n",
+    "aliases": "CVE-2020-13672\nGHSA-3m36-mjwj-352c\n",
+    "assigner": "drupal",
+    "epss": 0.67,
+    "enisaIdProduct": [
+      {
+        "id": "1715143e-ed84-3854-8dca-957f38d25f78",
+        "product": {
+          "name": "core",
+          "vendor": {
+            "name": "OPNsense"
+          }
+        },
+        "product_version": "7.x <7.80"
+      },
+      {
+        "id": "46844e6c-b77c-39e6-b94d-a8cde97e5a1c",
+        "product": {
+          "name": "core",
+          "vendor": {
+            "name": "OPNsense"
+          }
+        },
+        "product_version": "9.0.x <9.0.12"
+      },
+      {
+        "id": "6e2ecd65-9b2c-3f08-ae8b-3a8b933f7350",
+        "product": {
+          "name": "core",
+          "vendor": {
+            "name": "OPNsense"
+          }
+        },
+        "product_version": "8.9.x <8.9.14"
+      },
+      {
+        "id": "f6c660b9-8480-3ea4-897f-d9a78ac4547e",
+        "product": {
+          "name": "core",
+          "vendor": {
+            "name": "OPNsense"
+          }
+        },
+        "product_version": "9.1.x <9.1.7"
+      }
+    ],
+    "enisaIdVendor": [
+      {
+        "id": "c7320229-7db9-3fdc-91a1-b0047363dace",
+        "vendor": {
+          "name": "Drupal"
+        }
+      }
+    ]
+  },
+  {
+    "id": "EUVD-2022-0984",
+    "enisaUuid": "1b316838-7a64-35d9-8b24-dd5b3c7fdde2",
+    "description": "Drupal core's form API has a vulnerability where certain contributed or custom modules' forms may be vulnerable to improper input validation. This could allow an attacker to inject disallowed values or overwrite data. Affected forms are uncommon, but in certain cases an attacker could alter critical or sensitive data.",
+    "datePublished": "Feb 16, 2022, 12:00:00 AM",
+    "dateUpdated": "Aug 3, 2024, 4:36:06 AM",
+    "baseScore": null,
+    "references": "https://www.drupal.org/sa-core-2022-003\nhttps://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/HVKIOWSXL2RF2ULNAP7PHESYCFSZIJE3/\nhttps://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/SGSY236PYSFYIEBRGDERLA7OSY6D7XL4/\n",
+    "aliases": "CVE-2022-25271\nGHSA-fmfv-x8mp-5767\n",
+    "assigner": "drupal",
+    "epss": 1.28,
+    "enisaIdProduct": [
+      {
+        "id": "6aef6e8e-4685-3675-a622-281c5914594e",
+        "product": {
+          "name": "core",
+          "vendor": {
+            "name": "OPNsense"
+          }
+        },
+        "product_version": "7.x <7.88"
+      },
+      {
+        "id": "86d6b67e-1971-3e8a-a0ee-57b413206573",
+        "product": {
+          "name": "core",
+          "vendor": {
+            "name": "OPNsense"
+          }
+        },
+        "product_version": "9.2.x <9.2.13"
+      },
+      {
+        "id": "b1dfdd55-6588-324b-99fe-29e8889cbae3",
+        "product": {
+          "name": "core",
+          "vendor": {
+            "name": "OPNsense"
+          }
+        },
+        "product_version": "9.3.x <9.3.6"
+      }
+    ],
+    "enisaIdVendor": [
+      {
+        "id": "f7550747-ce73-342f-82f2-137f30edd42a",
+        "vendor": {
+          "name": "Drupal"
+        }
+      }
+    ]
+  }
+]
