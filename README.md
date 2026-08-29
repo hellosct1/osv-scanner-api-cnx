@@ -34,7 +34,7 @@ https://google.github.io/osv-scanner/usage/scan-source
 | euvd-1-download.sh |  |
 | euvd-api.sh | Utilisation de la fonctionnalité expérimentale de l'API EUVD |
 | euvd-download.sh |  |
-| test.sh |  |
+| euvd-api-list-vulnerabilite.sh| Retourne seulement les vulnérabilités via API OSV |
 
 
 
@@ -286,6 +286,13 @@ mkdir osv
 ./euvd-offline-drupal.sh -t /chemin/projet -e Packagist -k
 
 
+### Returne seulement les vulnerabilités via API OSV
+
+Retourne seulement les vulnérabilités via API OSV
+
+```
+euvd-api-list-vulnerabilite.sh
+```
 
 ## test EUVD avec les vulnérabilités Drupal
 
@@ -299,6 +306,5 @@ euvd-offline-drupal.sh
 
 
 
-#### API EUVD
-https://rud.is/euvd-api/
+
 
