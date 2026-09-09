@@ -39,6 +39,7 @@ jq -e . "$OSV_REPORT" >/dev/null || {
   exit 1
 }
 
+
 # Expose les identifiants CVE dans des champs dédiés, tout en conservant
 # les alias et l'identifiant OSV fournis par OSV-Scanner.
 jq '(.results[]?.packages[]?.vulnerabilities[]? |=
