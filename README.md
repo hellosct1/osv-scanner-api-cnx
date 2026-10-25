@@ -48,7 +48,7 @@ go version
 ```
 
 
-### install osv-scanner
+### Installation osv-scanner
 
 ```
 
@@ -73,16 +73,13 @@ osv-scanner --version
 | Fichier | Description |
 |---|---|
 | 1-osv.sh | Vérification du fonctionnement OSV |
-
 | drupal-1-osv.sh | Scan des vulnérabilités connues pour un projet Drupal via OSV-Scanner |
 | drupal-2-osv-api.sh | Client Bash de l'API OSV.dev pour Drupal |
 | drupal-3-osv-api-project.sh | Scan a Drupal project with the OSV API |
 | drupal-4-download.sh | Extrait les failles Drupal du schéma OSV et les convertit en identifiants CVE |
 | drupal-5-offline.sh | Scan OSV-Scanner en mode hors ligne (offline) |
-
 | euvd-1-api-list-vulnerabilite.sh| Retourne seulement les vulnérabilités via API OSV |
 | euvd-2-api.sh | Utilisation de la fonctionnalité expérimentale de l'API EUVD |
-
 | euvd-3-download.sh |  |
 | euvd-download.sh |  |
 
@@ -92,30 +89,8 @@ osv-scanner --version
 
 
 
+## USE TO SCRIPTS
 
-##
-
-```
-git clone https://github.com/hellosct1/osv-scanner.git
-
-./scripts/run_formatters.sh
-./scripts/build.sh
-```
-
-* Verification
-
-```
-./osv-scanner --help
-
-```
-
-
-
-## ------------------------------------------------
-
-
-
-### Test commande
 
 ```
 ./osv-scanner scan --filter-type=EUVD -r /var/www/html/osv-scanner/drupal-10.2/
@@ -401,3 +376,25 @@ euvd-offline-drupal.sh
 
 
 
+
+
+## ------------------------------------------------
+
+
+
+
+## A TRIER
+
+```
+git clone https://github.com/hellosct1/osv-scanner.git
+
+./scripts/run_formatters.sh
+./scripts/build.sh
+```
+
+* Verification
+
+```
+./osv-scanner --help
+
+```
