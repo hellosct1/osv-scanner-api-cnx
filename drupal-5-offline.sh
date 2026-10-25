@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # =============================================================================
-# osv-offline-drupal.sh — Scan OSV-Scanner en mode hors ligne (offline) en
-# utilisant comme source locale les advisories du dossier ./osv-drupal
+# Scan OSV-Scanner en mode hors ligne (offline) 
+# en utilisant comme source locale les advisories du dossier ./osv-drupal
 # généré par osv-drupal-to-cve.sh
 #
 # OSV-Scanner attend une base locale de la forme :

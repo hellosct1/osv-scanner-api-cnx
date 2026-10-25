@@ -124,19 +124,20 @@ seuls les noms et versions de ses dependances sont transmis a OSV.
 Un echec HTTP/JSON arrete le traitement ; le dossier partiel reste disponible.
 
 EXEMPLES
-  ./drupal-2-osv-api.sh -p core -v 7.98
-  ./drupal-2-osv-api.sh -s drupal/block_attributes -v 2.1.0
+  ./drupal-2-osv-api.sh -p core -v 7.103
+  ./drupal-2-osv-api.sh -p core -v 10.6.15
   # Module Views : formes courte et complete equivalentes (Packagist).
   ./drupal-2-osv-api.sh -p views -v 8.x-3.0
   ./drupal-2-osv-api.sh -p drupal/views -v 8.x-3.0
   ./drupal-2-osv-api.sh -p drupal/core --from 2023-01-01 --to 2025-12-31
   ./drupal-2-osv-api.sh -p requests -e PyPI -v 2.31.0
-  ./drupal-2-osv-api.sh --purl pkg:composer/drupal/core@9.5.0
+  ./drupal-2-osv-api.sh -s drupal/block_attributes -v 2.1.0
+  ./drupal-2-osv-api.sh --purl pkg:composer/drupal/core@10.5.0
   ./drupal-2-osv-api.sh --repo https://github.com/drupal/drupal.git -v 7.98
   ./drupal-2-osv-api.sh --commit HASH
   ./drupal-2-osv-api.sh --id DRUPAL-CORE-2023-001
-  ./drupal-2-osv-api.sh -g DRUPAL-CORE-2023-001
   ./drupal-2-osv-api.sh --id GHSA-xxxx-yyyy-zzzz
+  ./drupal-2-osv-api.sh --id SA-CONTRIB-2026-232
   ./drupal-2-osv-api.sh --project /var/www/drupal --no-dev
   ./drupal-2-osv-api.sh --batch queries.json --date-field modified --from 2025-01-01
   printf '%s\n' '{"package":{"name":"drupal/core","ecosystem":"Packagist"}}' |

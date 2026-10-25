@@ -70,6 +70,8 @@ osv-scanner --version
 
 ## Liste des scripts
 
+Ce répository contient les scripts suivants : 
+
 | Fichier | Description |
 |---|---|
 | 1-osv.sh | Vérification du fonctionnement OSV |
@@ -89,34 +91,20 @@ osv-scanner --version
 
 
 
-## USE TO SCRIPTS
-
-
-```
-./osv-scanner scan --filter-type=EUVD -r /var/www/html/osv-scanner/drupal-10.2/
-```
-./osv-scanner scan -r --filter-type=EUVD /var/www/html/osv-scanner/drupal-10.2/
-./osv-scanner scan --filter-type=EUVD -r /var/www/html/osv-scanner/drupal-10.2/
-
-### Utilisation workflow
-
-Exemple de workflow automatisé
-
-https://google.github.io/osv-scanner/usage/scan-source
+## Utilisation des scripts
 
 
 
-## Open Source Vulnerabilities (OSV)
+### Open Source Vulnerabilities (OSV)
 
 Vérification du fonctionnement OSV
 
 
 ```bash
-./osv.sh
+./1-osv.sh /var/www/html/osv-scanner/demo-symfony/
 ```
 
 
-## OSV API
 
 ### osv api drupal
 
@@ -124,9 +112,21 @@ Utilisation de la fonctionnalité expérimentale de l'API OSV avec Drupal
 
 ```bash
 curl -s -H "Content-Type: application/json" \
-  -d '{"package": {"name": "drupal/core", "ecosystem": "Packagist"}, "version": "9.5.0"}' \
+  -d '{"package": {"name": "drupal/core", "ecosystem": "Packagist"}, "version": "10.6.15"}' \
   "https://api.osv.dev/v1/query" | jq .
 ```
+
+#### Drupal
+
+
+| Fichier | Description |
+|---|---|
+| drupal-1-osv.sh | Scan des vulnérabilités connues pour un projet Drupal via OSV-Scanner |
+| drupal-2-osv-api.sh | Client Bash de l'API OSV.dev pour Drupal |
+| drupal-3-osv-api-project.sh | Scan a Drupal project with the OSV API |
+| drupal-4-download.sh | Extrait les failles Drupal du schéma OSV et les convertit en identifiants CVE |
+| drupal-5-offline.sh | Scan OSV-Scanner en mode hors ligne (offline) |
+
 
 | Script | Technologie | Ecosystème OSV |
 |--------|------------|----------------|
