@@ -1,40 +1,133 @@
 # osv-scanner-api-cnx
 
 > connexion to API OSV Scanner
+> https://google.github.io/osv.dev/
 
 
 
 
 ## Required
 
- `curl` et `jq`.
+### Installation de `curl` et `jq`.
+
+```
+sudo apt-get install jq
+sudo apt-get install curl
+```
 
 
-## Introduction
 
-https://google.github.io/osv.dev/
+### Installation GO
+
+
+* Option A : Avec le gestionnaire de paquets
+  
+```
+sudo apt update
+sudo apt install golang-go
+```
+
+* Option B : Installation manuelle (version plus récente)
+
+```
+# Télécharger la dernière version
+wget https://go.dev/dl/go1.27.3.linux-amd64.tar.gz
+
+# Extraire dans /usr/local
+sudo tar -C /usr/local -xzf go1.27.3.linux-amd64.tar.gz
+
+# Ajouter au PATH
+echo 'export PATH=$PATH:/usr/local/go/bin' >> ~/.bashrc
+source ~/.bashrc
+```
+
+Vérification :
+
+```
+go version
+```
+
+
+### install osv-scanner
+
+```
+
+go install github.com/google/osv-scanner/v2/cmd/osv-scanner@latest
+osv-scanner --version
+```
+
+
+
+
+
+
+* déroulement
+```
+./osv.sh
+```
+
+
+
+## Liste des scripts
+
+| Fichier | Description |
+|---|---|
+| 1-osv.sh | Vérification du fonctionnement OSV |
+
+| drupal-1-osv.sh | Scan des vulnérabilités connues pour un projet Drupal via OSV-Scanner |
+| drupal-2-osv-api.sh | Client Bash de l'API OSV.dev pour Drupal |
+| drupal-3-osv-api-project.sh | Scan a Drupal project with the OSV API |
+| drupal-4-download.sh | Extrait les failles Drupal du schéma OSV et les convertit en identifiants CVE |
+| drupal-5-offline.sh | Scan OSV-Scanner en mode hors ligne (offline) |
+
+| euvd-1-api-list-vulnerabilite.sh| Retourne seulement les vulnérabilités via API OSV |
+| euvd-2-api.sh | Utilisation de la fonctionnalité expérimentale de l'API EUVD |
+
+| euvd-3-download.sh |  |
+| euvd-download.sh |  |
+
+
+
+
+
+
+
+
+##
+
+```
+git clone https://github.com/hellosct1/osv-scanner.git
+
+./scripts/run_formatters.sh
+./scripts/build.sh
+```
+
+* Verification
+
+```
+./osv-scanner --help
+
+```
+
+
+
+## ------------------------------------------------
+
+
+
+### Test commande
+
+```
+./osv-scanner scan --filter-type=EUVD -r /var/www/html/osv-scanner/drupal-10.2/
+```
+./osv-scanner scan -r --filter-type=EUVD /var/www/html/osv-scanner/drupal-10.2/
+./osv-scanner scan --filter-type=EUVD -r /var/www/html/osv-scanner/drupal-10.2/
 
 ### Utilisation workflow
 
 Exemple de workflow automatisé
 
 https://google.github.io/osv-scanner/usage/scan-source
-
-
-### Liste des scripts
-
-| Fichier | Description |
-|---|---|
-| osv.sh | Vérification du fonctionnement OSV |
-| drupal-osv-api.sh | fonctionnalité expérimentale de l'API OSV avec Drupal |
-| drupal-osv.sh | Utilisation de API OSV via Drupal |
-| drupal-osv-api-project.sh | Validation d'un projet drupal avec l'API OSV |
-| drupal-to-cve-osv.sh | Convertir les vulnérabilités `Drupal` pour etre compatble avec OSV  |
-| drupal-offline-osv.sh |API OSV Hors ligne via Drupal |
-| euvd-1-download.sh |  |
-| euvd-api.sh | Utilisation de la fonctionnalité expérimentale de l'API EUVD |
-| euvd-download.sh |  |
-| euvd-api-list-vulnerabilite.sh| Retourne seulement les vulnérabilités via API OSV |
 
 
 

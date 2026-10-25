@@ -1,0 +1,475 @@
+{
+  "results": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {
+      "vulns": [
+        {
+          "id": "DRUPAL-CORE-2024-002",
+          "modified": "2025-12-10T23:40:59.635498Z"
+        },
+        {
+          "id": "DRUPAL-CORE-2024-003",
+          "modified": "2026-09-19T18:26:49Z"
+        },
+        {
+          "id": "DRUPAL-CORE-2024-004",
+          "modified": "2026-09-19T18:30:38Z"
+        },
+        {
+          "id": "DRUPAL-CORE-2024-006",
+          "modified": "2025-12-10T23:41:12.826760Z"
+        },
+        {
+          "id": "DRUPAL-CORE-2024-007",
+          "modified": "2025-12-10T23:41:12.148111Z"
+        },
+        {
+          "id": "DRUPAL-CORE-2024-008",
+          "modified": "2025-12-10T23:41:03.440447Z"
+        },
+        {
+          "id": "DRUPAL-CORE-2025-001",
+          "modified": "2026-09-19T14:47:54Z"
+        },
+        {
+          "id": "DRUPAL-CORE-2025-002",
+          "modified": "2026-09-19T14:48:16Z"
+        },
+        {
+          "id": "DRUPAL-CORE-2025-003",
+          "modified": "2026-09-19T14:41:35Z"
+        },
+        {
+          "id": "DRUPAL-CORE-2025-004",
+          "modified": "2026-09-19T14:49:06Z"
+        },
+        {
+          "id": "DRUPAL-CORE-2025-005",
+          "modified": "2025-12-10T23:41:07.744028Z"
+        },
+        {
+          "id": "DRUPAL-CORE-2025-006",
+          "modified": "2025-12-10T23:41:16.689525Z"
+        },
+        {
+          "id": "DRUPAL-CORE-2025-007",
+          "modified": "2025-12-10T23:41:19.050806Z"
+        },
+        {
+          "id": "DRUPAL-CORE-2025-008",
+          "modified": "2025-12-10T23:41:00.167393Z"
+        },
+        {
+          "id": "DRUPAL-CORE-2026-001",
+          "modified": "2026-09-10T03:45:13.636759Z"
+        },
+        {
+          "id": "DRUPAL-CORE-2026-002",
+          "modified": "2026-09-10T03:45:11.727669Z"
+        },
+        {
+          "id": "DRUPAL-CORE-2026-004",
+          "modified": "2026-09-10T03:45:21.478533Z"
+        },
+        {
+          "id": "DRUPAL-CORE-2026-005",
+          "modified": "2026-09-10T03:45:13.619969Z"
+        },
+        {
+          "id": "DRUPAL-CORE-2026-006",
+          "modified": "2026-09-10T03:45:21.445306Z"
+        },
+        {
+          "id": "DRUPAL-CORE-2026-007",
+          "modified": "2026-09-10T03:45:20.385208Z"
+        },
+        {
+          "id": "DRUPAL-CORE-2026-008",
+          "modified": "2026-09-10T03:45:13.576652Z"
+        },
+        {
+          "id": "DRUPAL-CORE-2026-009",
+          "modified": "2026-09-10T03:45:21.172288Z"
+        },
+        {
+          "id": "DRUPAL-CORE-2026-010",
+          "modified": "2026-07-15T20:56:45.570199Z"
+        },
+        {
+          "id": "DRUPAL-CORE-2026-012",
+          "modified": "2026-07-15T20:56:45.672035Z"
+        },
+        {
+          "id": "DRUPAL-CORE-2026-014",
+          "modified": "2026-10-14T19:09:54Z"
+        },
+        {
+          "id": "DRUPAL-CORE-2026-015",
+          "modified": "2026-10-14T18:11:06.211689Z"
+        },
+        {
+          "id": "GHSA-2qph-q8xw-gv7q",
+          "modified": "2025-12-10T23:41:08.718269Z"
+        },
+        {
+          "id": "GHSA-39g6-x4x8-5jcm",
+          "modified": "2025-12-10T23:41:10.146111Z"
+        },
+        {
+          "id": "GHSA-52jr-x6h6-xj6g",
+          "modified": "2025-12-10T23:40:59.635498Z"
+        },
+        {
+          "id": "GHSA-7cwc-fjqm-8vh8",
+          "modified": "2025-12-10T23:41:13.673688Z"
+        },
+        {
+          "id": "GHSA-83v7-c2cf-p9c2",
+          "modified": "2025-12-10T23:41:07.744028Z"
+        },
+        {
+          "id": "GHSA-8mvq-8h2v-j9vf",
+          "modified": "2025-12-10T23:41:11.305616Z"
+        },
+        {
+          "id": "GHSA-938f-5r4f-h65v",
+          "modified": "2025-12-10T23:41:12.826760Z"
+        },
+        {
+          "id": "GHSA-f3cj-mjqm-fhvj",
+          "modified": "2026-09-10T03:51:05.381765Z"
+        },
+        {
+          "id": "GHSA-ghwc-95x2-682j",
+          "modified": "2026-09-10T03:51:05.869506Z"
+        },
+        {
+          "id": "GHSA-gvf2-2f4g-jqf4",
+          "modified": "2025-12-10T23:41:03.440447Z"
+        },
+        {
+          "id": "GHSA-h89p-5896-f4q8",
+          "modified": "2025-12-10T23:41:19.050806Z"
+        },
+        {
+          "id": "GHSA-m4wj-hhwj-47qp",
+          "modified": "2026-04-06T17:46:18.151624Z"
+        },
+        {
+          "id": "GHSA-m6vv-vcj8-w8m7",
+          "modified": "2025-12-10T23:41:16.689525Z"
+        },
+        {
+          "id": "GHSA-mg8j-w93w-xjgc",
+          "modified": "2025-04-23T15:02:55.541812Z"
+        },
+        {
+          "id": "GHSA-mhpg-hpj5-73r2",
+          "modified": "2026-02-03T03:15:35.495869Z"
+        },
+        {
+          "id": "GHSA-w6rx-9g2x-mg5g",
+          "modified": "2025-12-10T23:41:12.148111Z"
+        },
+        {
+          "id": "GHSA-wpp8-fjgf-pwc7",
+          "modified": "2025-12-10T23:41:12.209689Z"
+        },
+        {
+          "id": "GHSA-xmjc-63pr-2mpg",
+          "modified": "2026-09-10T03:51:07.261847Z"
+        }
+      ]
+    },
+    {},
+    {},
+    {
+      "vulns": [
+        {
+          "id": "GHSA-7cwc-fjqm-8vh8",
+          "modified": "2025-12-10T23:41:13.673688Z"
+        },
+        {
+          "id": "GHSA-8mvq-8h2v-j9vf",
+          "modified": "2025-12-10T23:41:11.305616Z"
+        },
+        {
+          "id": "GHSA-938f-5r4f-h65v",
+          "modified": "2025-12-10T23:41:12.826760Z"
+        },
+        {
+          "id": "GHSA-gvf2-2f4g-jqf4",
+          "modified": "2025-12-10T23:41:03.440447Z"
+        },
+        {
+          "id": "GHSA-mg8j-w93w-xjgc",
+          "modified": "2025-04-23T15:02:55.541812Z"
+        },
+        {
+          "id": "GHSA-w6rx-9g2x-mg5g",
+          "modified": "2025-12-10T23:41:12.148111Z"
+        }
+      ]
+    },
+    {},
+    {},
+    {
+      "vulns": [
+        {
+          "id": "GHSA-94pj-82f3-465w",
+          "modified": "2026-09-10T03:51:11.108946Z"
+        },
+        {
+          "id": "GHSA-cwxw-98qj-8qjx",
+          "modified": "2026-09-10T03:50:49.287156Z"
+        },
+        {
+          "id": "GHSA-f283-ghqc-fg79",
+          "modified": "2026-09-10T03:50:51.710471Z"
+        },
+        {
+          "id": "GHSA-f7vp-7xgx-4w4r",
+          "modified": "2026-09-10T03:51:13.889147Z"
+        },
+        {
+          "id": "GHSA-g446-98w2-8p5w",
+          "modified": "2026-09-10T03:50:51.915343Z"
+        },
+        {
+          "id": "GHSA-h95v-h523-3mw8",
+          "modified": "2026-09-10T03:50:52.523072Z"
+        },
+        {
+          "id": "GHSA-v5mv-p594-2x33",
+          "modified": "2026-09-10T03:51:14.592158Z"
+        },
+        {
+          "id": "GHSA-wm3w-8rrp-j577",
+          "modified": "2026-09-10T03:51:12.418606Z"
+        },
+        {
+          "id": "GHSA-wpwq-4j6v-78m3",
+          "modified": "2026-09-10T03:50:50.904385Z"
+        }
+      ]
+    },
+    {},
+    {
+      "vulns": [
+        {
+          "id": "GHSA-34xg-wgjx-8xph",
+          "modified": "2026-09-10T03:51:07.670836Z"
+        },
+        {
+          "id": "GHSA-c2w2-prh8-qm98",
+          "modified": "2026-07-21T18:46:10.537345Z"
+        },
+        {
+          "id": "GHSA-hq7v-mx3g-29hw",
+          "modified": "2026-09-10T03:50:49.920925Z"
+        },
+        {
+          "id": "GHSA-vm85-hxw5-5432",
+          "modified": "2026-09-10T03:51:09.646537Z"
+        }
+      ]
+    },
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {
+      "vulns": [
+        {
+          "id": "GHSA-38cx-cq6f-5755",
+          "modified": "2026-09-10T03:51:07.914923Z"
+        },
+        {
+          "id": "GHSA-3rg7-wf37-54rm",
+          "modified": "2026-09-10T03:50:30.521562Z"
+        },
+        {
+          "id": "GHSA-mrqx-rp3w-jpjp",
+          "modified": "2025-11-03T23:05:56.908103Z"
+        }
+      ]
+    },
+    {},
+    {
+      "vulns": [
+        {
+          "id": "GHSA-xx3c-qf5g-hc39",
+          "modified": "2026-09-10T03:51:07.456855Z"
+        }
+      ]
+    },
+    {
+      "vulns": [
+        {
+          "id": "GHSA-qpmx-3rfj-7rhv",
+          "modified": "2026-09-10T03:50:47.380398Z"
+        },
+        {
+          "id": "GHSA-vqc8-7275-q272",
+          "modified": "2026-09-10T03:51:07.338405Z"
+        }
+      ]
+    },
+    {},
+    {},
+    {},
+    {
+      "vulns": [
+        {
+          "id": "GHSA-2xf4-cg6j-vhgq",
+          "modified": "2026-09-10T03:51:04.192819Z"
+        }
+      ]
+    },
+    {},
+    {},
+    {},
+    {},
+    {},
+    {
+      "vulns": [
+        {
+          "id": "GHSA-qq5c-677p-737q",
+          "modified": "2026-09-10T03:50:21.051244Z"
+        },
+        {
+          "id": "GHSA-r39x-jcww-82v6",
+          "modified": "2026-09-10T03:50:59.252205Z"
+        }
+      ]
+    },
+    {},
+    {
+      "vulns": [
+        {
+          "id": "GHSA-72xp-p242-47p9",
+          "modified": "2026-09-10T03:50:45.964420Z"
+        },
+        {
+          "id": "GHSA-h5x3-xfc9-m39h",
+          "modified": "2026-09-10T03:50:49.835469Z"
+        }
+      ]
+    },
+    {},
+    {},
+    {},
+    {},
+    {
+      "vulns": [
+        {
+          "id": "GHSA-g3rh-rrhp-jhh9",
+          "modified": "2025-11-03T23:16:31.077246Z"
+        }
+      ]
+    },
+    {},
+    {},
+    {
+      "vulns": [
+        {
+          "id": "GHSA-4qpc-3hr4-r2p4",
+          "modified": "2026-09-10T03:50:45.630970Z"
+        },
+        {
+          "id": "GHSA-9frc-8383-795m",
+          "modified": "2026-09-10T03:51:05.233135Z"
+        },
+        {
+          "id": "GHSA-c2p3-7m5p-cv8x",
+          "modified": "2026-09-10T03:50:46.737351Z"
+        }
+      ]
+    },
+    {
+      "vulns": [
+        {
+          "id": "GHSA-2g2g-8p8h-fgwm",
+          "modified": "2026-09-10T03:51:07.469938Z"
+        },
+        {
+          "id": "GHSA-4j38-f5cw-54h7",
+          "modified": "2026-09-10T03:50:45.504087Z"
+        },
+        {
+          "id": "GHSA-529h-vh3j-85hq",
+          "modified": "2026-09-10T03:51:10.402023Z"
+        },
+        {
+          "id": "GHSA-5v5v-ww74-355v",
+          "modified": "2026-09-10T03:50:48.434648Z"
+        },
+        {
+          "id": "GHSA-6377-hfv9-hqf6",
+          "modified": "2025-05-29T21:34:35.218736Z"
+        },
+        {
+          "id": "GHSA-6j75-5wfj-gh66",
+          "modified": "2024-10-10T15:29:44.509458Z"
+        },
+        {
+          "id": "GHSA-7fxw-r6jv-74c8",
+          "modified": "2026-09-10T03:50:46.108878Z"
+        },
+        {
+          "id": "GHSA-7p85-w9px-jpjp",
+          "modified": "2026-09-10T03:50:46.236628Z"
+        },
+        {
+          "id": "GHSA-8x9c-rmqh-456c",
+          "modified": "2026-09-10T03:51:08.226754Z"
+        },
+        {
+          "id": "GHSA-h8vq-8gpg-mhcg",
+          "modified": "2026-09-10T03:50:49.791061Z"
+        },
+        {
+          "id": "GHSA-jjxq-ff2g-95vh",
+          "modified": "2024-11-12T19:45:48.742422Z"
+        },
+        {
+          "id": "GHSA-p42q-9prx-q5wq",
+          "modified": "2026-09-10T03:51:09.244982Z"
+        },
+        {
+          "id": "GHSA-pr2w-4gpj-cpq4",
+          "modified": "2026-09-10T03:51:09.316002Z"
+        },
+        {
+          "id": "GHSA-vcc8-phrv-43wj",
+          "modified": "2026-09-10T03:50:47.571128Z"
+        }
+      ]
+    }
+  ]
+}

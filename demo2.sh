@@ -4,6 +4,7 @@ set -euo pipefail
 #######################################
 # CONFIGURATION
 #######################################
+# cd ../osv-scanner
 
 PROJECT_DIR="${1:-.}"
 

@@ -1,0 +1,17 @@
+{
+  "api": "https://api.osv.dev/v1",
+  "created": "2026-10-24T06:13:06Z",
+  "project": "",
+  "id": "DRUPAL-CONTRIB-2026-232",
+  "include_dev": true,
+  "queries": 0,
+  "retrieved": 1,
+  "exported": 1,
+  "filters": {
+    "from": "",
+    "to": "",
+    "date_field": "published",
+    "schema_version": "",
+    "range_type": ""
+  }
+}
